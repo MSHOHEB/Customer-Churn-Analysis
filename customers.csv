@@ -1,0 +1,1001 @@
+customer_id,name,gender,age,senior_citizen,partner,dependents,city,state,join_date,tenure_months,plan,monthly_charge,payment_method,contract_type,churned
+1,Chirag Joshi,Female,65,1,0,0,Mumbai,Maharashtra,2021-01-01,36,Standard,599,Debit Card,6 Months,1
+2,Tarun Rao,Male,47,0,1,0,Pune,Maharashtra,2020-01-26,49,Premium,999,Auto Debit,6 Months,0
+3,Manju Bhatt,Male,36,0,1,0,Hyderabad,Telangana,2020-11-10,56,Standard,599,Net Banking,Month-to-Month,0
+4,Kavita Bajaj,Male,52,0,1,0,Kolkata,West Bengal,2023-02-22,17,Enterprise,1999,Debit Card,2 Year,0
+5,Rajiv Saxena,Male,36,0,1,0,Patna,Bihar,2020-10-24,55,Enterprise,1999,Debit Card,6 Months,0
+6,Tarun Desai,Male,34,0,1,1,Chandigarh,Punjab,2023-08-27,17,Premium,999,Credit Card,6 Months,0
+7,Ramesh Shukla,Male,53,0,0,1,Bhopal,Madhya Pradesh,2024-07-05,2,Basic,299,Credit Card,6 Months,1
+8,Anil Pillai,Female,32,0,1,0,Ahmedabad,Gujarat,2024-06-21,4,Standard,599,Net Banking,Annual,0
+9,Eshan Banerjee,Female,43,0,1,0,Nagpur,Maharashtra,2021-07-18,38,Standard,599,Debit Card,2 Year,0
+10,Manju Shetty,Male,29,0,0,1,Ahmedabad,Gujarat,2019-08-22,67,Enterprise,1999,Credit Card,6 Months,0
+11,Lokesh Ansari,Female,48,0,1,0,Indore,Madhya Pradesh,2024-04-09,1,Premium,999,UPI,2 Year,0
+12,Lokesh Singh,Male,30,0,1,0,Ahmedabad,Gujarat,2024-08-23,3,Standard,599,Debit Card,6 Months,1
+13,Pallavi Mehta,Female,41,0,1,1,Bhopal,Madhya Pradesh,2020-07-27,59,Standard,599,Net Banking,6 Months,0
+14,Girish Bajaj,Female,19,0,0,1,Patna,Bihar,2023-08-18,12,Premium,999,Debit Card,2 Year,0
+15,Sneha Shukla,Female,62,1,1,1,Lucknow,Uttar Pradesh,2023-08-11,17,Enterprise,1999,Credit Card,Month-to-Month,1
+16,Rahul Nair,Female,33,0,1,1,Pune,Maharashtra,2023-05-02,23,Basic,299,Debit Card,Month-to-Month,1
+17,Girish Aggarwal,Female,35,0,1,1,Patna,Bihar,2022-06-11,24,Enterprise,1999,Net Banking,Month-to-Month,0
+18,Meena Shukla,Male,53,0,1,0,Mumbai,Maharashtra,2020-08-23,53,Basic,299,Debit Card,Month-to-Month,1
+19,Suresh Kulkarni,Female,54,0,1,1,Ahmedabad,Gujarat,2020-07-22,50,Standard,599,Net Banking,Month-to-Month,0
+20,Sneha Chandra,Male,41,0,0,0,Surat,Gujarat,2020-02-20,56,Standard,599,Debit Card,2 Year,0
+21,Hema Chandra,Male,60,1,1,1,Mumbai,Maharashtra,2020-10-26,51,Premium,999,Credit Card,Month-to-Month,0
+22,Amit Reddy,Male,61,1,0,1,Ahmedabad,Gujarat,2020-08-12,51,Premium,999,Credit Card,2 Year,0
+23,Tarun Patil,Male,43,0,0,0,Delhi,Delhi,2021-01-26,36,Standard,599,Credit Card,2 Year,0
+24,Ramesh Bose,Female,55,0,0,1,Chandigarh,Punjab,2023-11-01,14,Enterprise,1999,Auto Debit,6 Months,1
+25,Eshan Saxena,Male,27,0,0,1,Surat,Gujarat,2019-12-24,61,Basic,299,Credit Card,Month-to-Month,1
+26,Hema Pillai,Male,40,0,0,0,Nagpur,Maharashtra,2024-02-24,1,Standard,599,Debit Card,2 Year,0
+27,Rekha Pillai,Female,26,0,0,1,Kolkata,West Bengal,2022-03-05,33,Premium,999,UPI,Month-to-Month,0
+28,Meena Bhatt,Female,39,0,0,1,Ahmedabad,Gujarat,2023-12-27,22,Basic,299,Auto Debit,Month-to-Month,0
+29,Kavita Kothari,Male,40,0,1,0,Delhi,Delhi,2019-06-27,65,Basic,299,UPI,2 Year,0
+30,Chirag Bhatt,Male,39,0,0,1,Bangalore,Karnataka,2023-10-22,13,Enterprise,1999,UPI,Annual,1
+31,Eshan Bhatt,Male,26,0,0,1,Vishakhapatnam,Andhra Pradesh,2020-07-12,49,Standard,599,Debit Card,6 Months,0
+32,Naresh Reddy,Female,23,0,1,0,Bhopal,Madhya Pradesh,2022-09-12,29,Enterprise,1999,UPI,Month-to-Month,1
+33,Bhavna Patil,Female,54,0,0,0,Ahmedabad,Gujarat,2020-08-02,54,Standard,599,Credit Card,Annual,0
+34,Sanjay Patel,Male,37,0,1,0,Nagpur,Maharashtra,2019-05-12,66,Enterprise,1999,Auto Debit,2 Year,0
+35,Kavita Gupta,Female,60,1,0,0,Bangalore,Karnataka,2020-01-05,52,Premium,999,Auto Debit,6 Months,1
+36,Irfan Kaur,Male,61,1,1,0,Bangalore,Karnataka,2021-06-17,41,Premium,999,Credit Card,Annual,0
+37,Sarita Reddy,Female,28,0,1,0,Lucknow,Uttar Pradesh,2023-04-21,21,Premium,999,Debit Card,Annual,0
+38,Ramesh Banerjee,Female,47,0,1,1,Kochi,Kerala,2022-07-05,27,Premium,999,Auto Debit,6 Months,0
+39,Deepak Bajaj,Male,59,0,0,1,Vishakhapatnam,Andhra Pradesh,2019-05-24,61,Premium,999,Auto Debit,Month-to-Month,0
+40,Girish Aggarwal,Female,27,0,0,1,Patna,Bihar,2019-10-11,66,Standard,599,UPI,Annual,0
+41,Ramesh Iyer,Male,27,0,0,0,Bhopal,Madhya Pradesh,2020-09-11,53,Standard,599,Net Banking,2 Year,0
+42,Karan Banerjee,Female,63,1,0,1,Nagpur,Maharashtra,2019-08-21,61,Basic,299,Debit Card,Month-to-Month,1
+43,Deepali Saxena,Female,18,0,0,1,Pune,Maharashtra,2021-09-11,44,Premium,999,Auto Debit,6 Months,1
+44,Amit Ansari,Female,21,0,0,1,Hyderabad,Telangana,2019-02-22,71,Standard,599,Auto Debit,6 Months,0
+45,Deepali Banerjee,Male,42,0,0,1,Surat,Gujarat,2020-03-18,58,Enterprise,1999,Net Banking,Month-to-Month,0
+46,Meena Reddy,Female,32,0,0,1,Chandigarh,Punjab,2020-01-12,53,Premium,999,UPI,Month-to-Month,0
+47,Kavita Menon,Female,56,0,1,0,Vishakhapatnam,Andhra Pradesh,2024-05-01,6,Basic,299,Debit Card,6 Months,1
+48,Deepak Reddy,Female,39,0,1,1,Kolkata,West Bengal,2022-08-24,30,Enterprise,1999,Auto Debit,6 Months,0
+49,Priya Aggarwal,Male,52,0,0,0,Jaipur,Rajasthan,2021-09-05,37,Basic,299,Auto Debit,2 Year,1
+50,Vandana Menon,Female,39,0,0,0,Vadodara,Gujarat,2020-04-27,50,Standard,599,Credit Card,Annual,1
+51,Anjali Shetty,Male,53,0,0,1,Patna,Bihar,2018-10-20,72,Enterprise,1999,Credit Card,Month-to-Month,0
+52,Suresh Menon,Female,43,0,0,0,Jaipur,Rajasthan,2021-12-07,47,Basic,299,Auto Debit,6 Months,0
+53,Eshan Patil,Male,59,0,0,0,Pune,Maharashtra,2024-05-08,6,Enterprise,1999,UPI,2 Year,0
+54,Karan Tiwari,Female,51,0,1,0,Ahmedabad,Gujarat,2023-11-06,23,Standard,599,UPI,2 Year,0
+55,Hema Reddy,Female,42,0,1,0,Chandigarh,Punjab,2020-11-18,54,Standard,599,Auto Debit,2 Year,0
+56,Manju Nanda,Male,65,1,1,1,Coimbatore,Tamil Nadu,2019-12-15,64,Basic,299,Auto Debit,Month-to-Month,0
+57,Irfan Chandra,Male,54,0,0,1,Lucknow,Uttar Pradesh,2022-12-28,35,Basic,299,Debit Card,2 Year,1
+58,Rohit Mehta,Male,19,0,0,1,Patna,Bihar,2023-12-05,16,Standard,599,Net Banking,2 Year,0
+59,Jagdish Mehta,Male,38,0,0,0,Hyderabad,Telangana,2020-09-19,48,Premium,999,Debit Card,2 Year,1
+60,Pallavi Lal,Female,51,0,1,1,Bangalore,Karnataka,2024-09-22,2,Premium,999,UPI,6 Months,1
+61,Shobha Lal,Female,37,0,0,0,Delhi,Delhi,2023-06-17,23,Basic,299,Credit Card,6 Months,0
+62,Vandana Bose,Female,50,0,1,0,Hyderabad,Telangana,2024-05-25,7,Standard,599,Debit Card,Month-to-Month,0
+63,Kamla Pillai,Female,31,0,0,0,Hyderabad,Telangana,2019-02-02,68,Standard,599,Net Banking,2 Year,0
+64,Pooja Bhosle,Male,31,0,0,0,Surat,Gujarat,2020-11-10,58,Premium,999,Net Banking,Annual,0
+65,Amit Kulkarni,Male,26,0,1,0,Patna,Bihar,2023-10-14,12,Premium,999,Credit Card,Month-to-Month,0
+66,Rajiv Patil,Male,52,0,1,1,Kochi,Kerala,2019-01-11,63,Premium,999,Auto Debit,Annual,0
+67,Hema Patil,Male,54,0,0,1,Coimbatore,Tamil Nadu,2023-02-02,19,Standard,599,Net Banking,Annual,0
+68,Anjali Sharma,Female,43,0,0,0,Coimbatore,Tamil Nadu,2024-03-11,5,Standard,599,Auto Debit,Annual,0
+69,Amit Patel,Female,19,0,1,0,Lucknow,Uttar Pradesh,2021-03-24,41,Premium,999,Credit Card,Month-to-Month,1
+70,Girish Bajaj,Male,23,0,1,1,Jaipur,Rajasthan,2019-08-02,70,Enterprise,1999,Debit Card,Annual,0
+71,Jagdish Kumar,Male,42,0,1,1,Bangalore,Karnataka,2018-12-20,72,Enterprise,1999,Auto Debit,Annual,0
+72,Kavita Banerjee,Female,59,0,1,1,Vishakhapatnam,Andhra Pradesh,2023-01-17,12,Standard,599,Net Banking,6 Months,0
+73,Rahul Nair,Male,19,0,0,0,Lucknow,Uttar Pradesh,2020-05-21,50,Basic,299,Debit Card,6 Months,0
+74,Kavita Iyer,Female,34,0,0,1,Jaipur,Rajasthan,2021-11-05,39,Standard,599,Debit Card,6 Months,0
+75,Anil Pandey,Female,44,0,1,0,Lucknow,Uttar Pradesh,2021-01-28,43,Premium,999,UPI,Annual,0
+76,Chirag Shetty,Male,45,0,0,1,Indore,Madhya Pradesh,2019-06-25,62,Enterprise,1999,Credit Card,Month-to-Month,0
+77,Manoj Verma,Female,64,1,0,1,Kolkata,West Bengal,2024-09-20,3,Standard,599,Credit Card,Annual,1
+78,Rekha Ghosh,Male,33,0,1,0,Nagpur,Maharashtra,2024-09-03,1,Basic,299,Credit Card,Month-to-Month,0
+79,Hema Gupta,Female,24,0,0,1,Pune,Maharashtra,2020-10-01,54,Enterprise,1999,Auto Debit,2 Year,0
+80,Uday Gupta,Female,59,0,0,1,Mumbai,Maharashtra,2023-04-11,21,Enterprise,1999,Net Banking,6 Months,0
+81,Rahul Kulkarni,Female,25,0,1,0,Kolkata,West Bengal,2020-01-21,51,Standard,599,Net Banking,6 Months,0
+82,Geeta Chandra,Male,26,0,1,0,Patna,Bihar,2023-04-20,18,Enterprise,1999,Auto Debit,Annual,0
+83,Sunita Malhotra,Male,62,1,1,0,Lucknow,Uttar Pradesh,2024-12-09,7,Enterprise,1999,Net Banking,2 Year,1
+84,Anil Pandey,Male,60,1,0,1,Kolkata,West Bengal,2021-02-22,43,Premium,999,UPI,Annual,0
+85,Divya Kumar,Female,29,0,1,1,Delhi,Delhi,2022-08-21,33,Basic,299,Auto Debit,6 Months,0
+86,Ganesh Bose,Male,53,0,0,1,Mumbai,Maharashtra,2018-05-07,72,Standard,599,Credit Card,Month-to-Month,0
+87,Deepak Kumar,Female,38,0,0,1,Kolkata,West Bengal,2019-07-06,63,Enterprise,1999,UPI,Annual,1
+88,Jagdish Chandra,Male,47,0,0,0,Chennai,Tamil Nadu,2019-09-05,65,Basic,299,Net Banking,Annual,0
+89,Manoj Aggarwal,Male,40,0,0,1,Indore,Madhya Pradesh,2021-04-03,45,Enterprise,1999,Net Banking,Month-to-Month,0
+90,Rekha Kaur,Female,48,0,0,0,Vishakhapatnam,Andhra Pradesh,2019-03-24,62,Standard,599,Debit Card,2 Year,0
+91,Girish Menon,Male,55,0,1,0,Surat,Gujarat,2023-05-20,13,Enterprise,1999,Debit Card,Annual,0
+92,Eshan Joshi,Male,46,0,1,0,Ahmedabad,Gujarat,2023-07-21,21,Basic,299,Debit Card,2 Year,1
+93,Divya Jain,Male,40,0,0,0,Indore,Madhya Pradesh,2020-09-10,51,Enterprise,1999,Auto Debit,6 Months,0
+94,Chirag Pandey,Female,38,0,1,0,Ahmedabad,Gujarat,2020-02-13,53,Premium,999,Auto Debit,Month-to-Month,0
+95,Vandana Jain,Female,29,0,0,0,Kochi,Kerala,2019-08-18,66,Premium,999,Net Banking,6 Months,1
+96,Jagdish Jain,Male,53,0,0,1,Ahmedabad,Gujarat,2020-03-14,56,Enterprise,1999,Debit Card,6 Months,0
+97,Manju Chandra,Female,38,0,1,1,Surat,Gujarat,2019-11-05,66,Enterprise,1999,Net Banking,Month-to-Month,0
+98,Lalitha Mehta,Female,22,0,0,0,Hyderabad,Telangana,2019-10-05,61,Basic,299,Credit Card,2 Year,1
+99,Nisha Pillai,Female,18,0,1,0,Mumbai,Maharashtra,2019-08-10,67,Standard,599,UPI,Annual,1
+100,Hema Bajaj,Female,38,0,0,0,Kolkata,West Bengal,2024-05-05,3,Standard,599,Credit Card,Month-to-Month,0
+101,Rajiv Pillai,Female,28,0,1,0,Nagpur,Maharashtra,2024-01-28,6,Basic,299,UPI,2 Year,0
+102,Pallavi Pandey,Male,53,0,1,1,Nagpur,Maharashtra,2021-05-02,45,Enterprise,1999,Debit Card,Month-to-Month,0
+103,Suresh Banerjee,Male,25,0,0,0,Nagpur,Maharashtra,2023-02-16,13,Basic,299,Credit Card,6 Months,1
+104,Jagdish Pandey,Male,42,0,0,1,Vadodara,Gujarat,2022-11-19,25,Standard,599,Auto Debit,6 Months,0
+105,Swati Kothari,Female,32,0,0,0,Ahmedabad,Gujarat,2022-08-06,33,Premium,999,Credit Card,2 Year,0
+106,Lalitha Ansari,Female,53,0,1,1,Kolkata,West Bengal,2019-11-19,68,Standard,599,Debit Card,Month-to-Month,1
+107,Meena Kaur,Female,19,0,0,1,Kochi,Kerala,2021-10-24,43,Standard,599,Auto Debit,6 Months,0
+108,Chirag Pillai,Male,50,0,0,1,Ahmedabad,Gujarat,2021-03-11,36,Basic,299,UPI,2 Year,0
+109,Amit Shukla,Female,64,1,0,1,Vadodara,Gujarat,2023-07-10,16,Standard,599,UPI,6 Months,0
+110,Lokesh Sharma,Female,44,0,0,1,Jaipur,Rajasthan,2022-12-11,29,Standard,599,Debit Card,Month-to-Month,0
+111,Divya Malhotra,Male,29,0,1,1,Hyderabad,Telangana,2019-03-15,70,Standard,599,Net Banking,2 Year,0
+112,Meena Pillai,Male,36,0,0,1,Patna,Bihar,2022-08-16,24,Basic,299,Debit Card,6 Months,0
+113,Ganesh Chandra,Female,60,1,0,0,Vishakhapatnam,Andhra Pradesh,2018-06-12,72,Standard,599,Net Banking,Annual,0
+114,Chirag Kulkarni,Female,34,0,0,0,Lucknow,Uttar Pradesh,2024-06-13,9,Premium,999,UPI,Annual,0
+115,Nisha Jain,Female,39,0,0,0,Mumbai,Maharashtra,2020-12-28,49,Standard,599,Auto Debit,2 Year,0
+116,Sarita Verma,Male,64,1,0,1,Kolkata,West Bengal,2024-11-28,5,Enterprise,1999,Net Banking,Month-to-Month,0
+117,Rajiv Gupta,Female,45,0,1,1,Bangalore,Karnataka,2020-04-23,51,Standard,599,Auto Debit,2 Year,0
+118,Manju Patil,Female,54,0,1,0,Vishakhapatnam,Andhra Pradesh,2023-09-15,17,Basic,299,Net Banking,Month-to-Month,1
+119,Wasim Sharma,Male,50,0,1,0,Vishakhapatnam,Andhra Pradesh,2020-12-18,52,Standard,599,UPI,Month-to-Month,0
+120,Rohit Patel,Female,48,0,0,0,Coimbatore,Tamil Nadu,2020-08-17,48,Basic,299,Auto Debit,2 Year,1
+121,Anjali Kothari,Male,60,1,0,1,Chennai,Tamil Nadu,2020-09-28,58,Premium,999,Debit Card,Annual,1
+122,Tarun Patil,Female,57,0,0,1,Bhopal,Madhya Pradesh,2022-08-25,35,Premium,999,UPI,Annual,0
+123,Eshan Ansari,Female,25,0,0,1,Pune,Maharashtra,2022-07-23,24,Premium,999,UPI,2 Year,0
+124,Eshan Menon,Female,27,0,1,1,Jaipur,Rajasthan,2021-07-28,43,Enterprise,1999,Auto Debit,Month-to-Month,0
+125,Divya Kaur,Male,26,0,1,1,Kolkata,West Bengal,2024-09-21,5,Standard,599,Credit Card,6 Months,0
+126,Pooja Bajaj,Female,57,0,1,1,Vishakhapatnam,Andhra Pradesh,2022-02-22,29,Basic,299,Debit Card,2 Year,0
+127,Aarav Shukla,Male,30,0,0,1,Ahmedabad,Gujarat,2023-05-02,16,Basic,299,Auto Debit,Annual,1
+128,Amit Ghosh,Female,49,0,1,0,Coimbatore,Tamil Nadu,2024-06-05,7,Enterprise,1999,Debit Card,6 Months,0
+129,Pallavi Rao,Male,53,0,1,1,Bangalore,Karnataka,2024-11-03,2,Enterprise,1999,Debit Card,6 Months,1
+130,Pooja Ghosh,Female,62,1,1,1,Coimbatore,Tamil Nadu,2022-01-03,27,Standard,599,UPI,Annual,0
+131,Sarita Bhatt,Male,55,0,1,1,Bhopal,Madhya Pradesh,2021-05-06,44,Premium,999,Net Banking,2 Year,0
+132,Anil Reddy,Female,46,0,0,0,Surat,Gujarat,2019-08-25,70,Standard,599,Auto Debit,Annual,1
+133,Ganesh Nair,Male,43,0,1,1,Chandigarh,Punjab,2022-12-28,25,Enterprise,1999,UPI,Month-to-Month,0
+134,Wasim Menon,Male,18,0,1,0,Bangalore,Karnataka,2020-03-27,53,Premium,999,Net Banking,6 Months,0
+135,Rahul Tiwari,Male,21,0,1,0,Coimbatore,Tamil Nadu,2023-05-12,19,Premium,999,Net Banking,6 Months,0
+136,Rekha Reddy,Male,32,0,0,0,Chandigarh,Punjab,2022-01-16,25,Basic,299,Net Banking,2 Year,0
+137,Pooja Lal,Female,55,0,0,0,Kolkata,West Bengal,2022-10-12,26,Standard,599,UPI,Month-to-Month,0
+138,Pooja Aggarwal,Female,49,0,0,1,Chennai,Tamil Nadu,2021-02-13,47,Premium,999,Auto Debit,Month-to-Month,1
+139,Lalitha Joshi,Female,45,0,1,1,Ahmedabad,Gujarat,2019-11-20,64,Premium,999,Auto Debit,Annual,0
+140,Usha Joshi,Male,46,0,0,0,Indore,Madhya Pradesh,2021-09-22,41,Enterprise,1999,Net Banking,2 Year,0
+141,Kamla Kothari,Female,58,0,1,1,Mumbai,Maharashtra,2021-06-02,44,Enterprise,1999,Credit Card,2 Year,0
+142,Pallavi Kumar,Male,31,0,1,0,Vadodara,Gujarat,2021-12-28,37,Premium,999,Credit Card,Annual,0
+143,Shobha Reddy,Female,27,0,0,0,Ahmedabad,Gujarat,2021-05-27,39,Enterprise,1999,Net Banking,Annual,0
+144,Pallavi Nair,Male,56,0,0,1,Ahmedabad,Gujarat,2023-03-04,16,Premium,999,UPI,2 Year,0
+145,Rajiv Sharma,Female,34,0,0,0,Indore,Madhya Pradesh,2021-11-11,39,Basic,299,Debit Card,Annual,0
+146,Akash Banerjee,Male,46,0,1,1,Nagpur,Maharashtra,2019-02-14,62,Standard,599,UPI,6 Months,0
+147,Kavita Chandra,Female,42,0,1,0,Kochi,Kerala,2023-03-14,17,Enterprise,1999,Debit Card,6 Months,0
+148,Vikram Malhotra,Female,39,0,1,0,Kochi,Kerala,2019-02-11,60,Standard,599,Credit Card,Annual,1
+149,Pooja Patil,Male,31,0,0,0,Bangalore,Karnataka,2021-07-03,37,Standard,599,Debit Card,Annual,0
+150,Sneha Kumar,Female,56,0,0,0,Vadodara,Gujarat,2020-02-01,49,Basic,299,Net Banking,Annual,0
+151,Naresh Bhatt,Female,61,1,1,1,Patna,Bihar,2022-02-26,29,Standard,599,Net Banking,Month-to-Month,0
+152,Usha Bhosle,Female,18,0,1,1,Mumbai,Maharashtra,2020-11-24,51,Basic,299,Credit Card,6 Months,0
+153,Chirag Shetty,Female,49,0,1,1,Bhopal,Madhya Pradesh,2019-04-23,71,Premium,999,Credit Card,2 Year,1
+154,Bhavna Pandey,Female,53,0,1,0,Hyderabad,Telangana,2022-03-28,29,Enterprise,1999,UPI,Annual,0
+155,Nisha Aggarwal,Male,32,0,1,1,Bhopal,Madhya Pradesh,2023-08-05,18,Enterprise,1999,Net Banking,2 Year,0
+156,Naresh Shukla,Female,51,0,1,0,Lucknow,Uttar Pradesh,2021-12-14,44,Standard,599,Credit Card,Month-to-Month,0
+157,Rajiv Aggarwal,Female,24,0,0,0,Ahmedabad,Gujarat,2021-07-03,42,Standard,599,UPI,2 Year,1
+158,Uday Bose,Male,56,0,1,0,Hyderabad,Telangana,2020-02-12,53,Basic,299,Credit Card,Annual,0
+159,Arjun Malhotra,Male,46,0,1,1,Patna,Bihar,2020-07-11,58,Standard,599,UPI,Month-to-Month,0
+160,Tarun Lal,Female,43,0,1,0,Nagpur,Maharashtra,2024-01-28,6,Enterprise,1999,Credit Card,Annual,0
+161,Kavita Gupta,Male,47,0,0,1,Nagpur,Maharashtra,2019-01-09,71,Enterprise,1999,Credit Card,2 Year,0
+162,Rahul Menon,Male,58,0,0,1,Surat,Gujarat,2022-07-23,28,Premium,999,Credit Card,6 Months,1
+163,Ganesh Patil,Female,23,0,1,0,Kolkata,West Bengal,2021-08-23,39,Standard,599,Debit Card,2 Year,0
+164,Uday Nanda,Female,45,0,1,0,Mumbai,Maharashtra,2024-08-12,7,Premium,999,Net Banking,2 Year,0
+165,Chirag Kaur,Male,25,0,1,0,Coimbatore,Tamil Nadu,2024-01-26,11,Basic,299,Credit Card,2 Year,0
+166,Arjun Patel,Male,26,0,1,0,Delhi,Delhi,2021-08-10,40,Enterprise,1999,Auto Debit,Annual,0
+167,Manoj Sharma,Female,62,1,0,1,Ahmedabad,Gujarat,2022-12-13,30,Enterprise,1999,Auto Debit,6 Months,0
+168,Irfan Kumar,Female,27,0,1,1,Hyderabad,Telangana,2023-11-08,17,Standard,599,Debit Card,2 Year,0
+169,Manoj Kulkarni,Female,33,0,1,0,Patna,Bihar,2020-05-18,51,Standard,599,UPI,2 Year,1
+170,Rahul Pillai,Female,30,0,1,1,Jaipur,Rajasthan,2023-07-27,18,Premium,999,Credit Card,Annual,0
+171,Eshan Patil,Male,32,0,1,0,Nagpur,Maharashtra,2020-03-05,54,Enterprise,1999,Net Banking,Annual,0
+172,Aarav Tiwari,Male,44,0,1,1,Nagpur,Maharashtra,2020-07-28,51,Standard,599,Credit Card,6 Months,0
+173,Eshan Mishra,Male,24,0,1,1,Coimbatore,Tamil Nadu,2020-12-24,51,Basic,299,Debit Card,6 Months,0
+174,Arjun Ghosh,Male,28,0,0,1,Jaipur,Rajasthan,2023-09-24,22,Basic,299,Auto Debit,Month-to-Month,1
+175,Aarav Bhatt,Female,61,1,0,0,Kolkata,West Bengal,2024-09-04,9,Standard,599,Credit Card,6 Months,0
+176,Priya Joshi,Female,33,0,0,0,Lucknow,Uttar Pradesh,2020-08-10,55,Standard,599,Auto Debit,Month-to-Month,1
+177,Amit Bajaj,Male,30,0,0,0,Bangalore,Karnataka,2024-04-17,7,Standard,599,Debit Card,6 Months,1
+178,Shobha Chandra,Male,53,0,1,0,Indore,Madhya Pradesh,2019-04-01,62,Basic,299,UPI,6 Months,1
+179,Ganesh Reddy,Male,33,0,1,1,Jaipur,Rajasthan,2023-09-07,21,Basic,299,Credit Card,Month-to-Month,0
+180,Arjun Kulkarni,Male,29,0,0,0,Kochi,Kerala,2019-12-06,65,Basic,299,Net Banking,6 Months,0
+181,Bhavna Gupta,Male,39,0,0,0,Surat,Gujarat,2023-09-09,13,Basic,299,Net Banking,2 Year,0
+182,Rekha Tiwari,Male,24,0,1,1,Bangalore,Karnataka,2020-12-09,56,Basic,299,Debit Card,Annual,0
+183,Nisha Chandra,Female,49,0,0,0,Ahmedabad,Gujarat,2020-05-17,59,Standard,599,Auto Debit,Annual,0
+184,Hema Kulkarni,Male,43,0,1,1,Vadodara,Gujarat,2023-10-05,13,Standard,599,UPI,Month-to-Month,0
+185,Manju Nanda,Male,35,0,0,0,Indore,Madhya Pradesh,2020-08-21,57,Premium,999,Credit Card,Month-to-Month,0
+186,Uday Kaur,Female,25,0,0,0,Nagpur,Maharashtra,2024-01-03,6,Standard,599,Auto Debit,6 Months,0
+187,Irfan Bose,Female,60,1,1,1,Coimbatore,Tamil Nadu,2019-01-20,66,Standard,599,Net Banking,6 Months,0
+188,Nisha Menon,Male,65,1,1,1,Coimbatore,Tamil Nadu,2022-08-12,35,Basic,299,UPI,6 Months,0
+189,Irfan Shetty,Male,65,1,1,0,Vadodara,Gujarat,2021-03-03,45,Standard,599,Auto Debit,Month-to-Month,0
+190,Meena Patil,Female,18,0,0,0,Hyderabad,Telangana,2021-08-07,45,Standard,599,Net Banking,Annual,1
+191,Girish Jain,Male,44,0,1,1,Hyderabad,Telangana,2019-02-04,63,Enterprise,1999,Debit Card,Annual,0
+192,Nisha Shetty,Male,57,0,1,1,Mumbai,Maharashtra,2022-04-11,26,Basic,299,Credit Card,2 Year,0
+193,Karan Verma,Female,25,0,0,0,Vishakhapatnam,Andhra Pradesh,2024-05-24,6,Standard,599,Debit Card,2 Year,0
+194,Lalitha Lal,Female,31,0,0,1,Jaipur,Rajasthan,2022-05-28,24,Basic,299,Debit Card,6 Months,1
+195,Nisha Kaur,Male,64,1,0,1,Ahmedabad,Gujarat,2020-08-06,56,Premium,999,Debit Card,2 Year,0
+196,Meena Bhatt,Male,27,0,0,0,Kochi,Kerala,2022-02-18,32,Basic,299,Auto Debit,Annual,0
+197,Nisha Pillai,Male,36,0,1,1,Vishakhapatnam,Andhra Pradesh,2021-01-28,45,Basic,299,UPI,2 Year,0
+198,Wasim Banerjee,Male,54,0,0,0,Chandigarh,Punjab,2022-06-18,29,Basic,299,Debit Card,Annual,0
+199,Mohan Bhatt,Male,59,0,0,0,Patna,Bihar,2024-09-06,2,Premium,999,Credit Card,6 Months,1
+200,Karan Kumar,Male,56,0,0,0,Surat,Gujarat,2021-04-20,43,Basic,299,Debit Card,Annual,1
+201,Rekha Reddy,Female,50,0,1,1,Pune,Maharashtra,2019-10-28,67,Premium,999,Net Banking,6 Months,0
+202,Ramesh Verma,Male,54,0,1,1,Hyderabad,Telangana,2019-08-12,63,Basic,299,UPI,Annual,0
+203,Jagdish Mehta,Female,45,0,1,1,Indore,Madhya Pradesh,2022-04-23,26,Enterprise,1999,UPI,Month-to-Month,0
+204,Irfan Kaur,Female,51,0,0,1,Bhopal,Madhya Pradesh,2022-05-06,28,Premium,999,Debit Card,Month-to-Month,1
+205,Chirag Kaur,Male,24,0,0,1,Coimbatore,Tamil Nadu,2024-06-07,5,Standard,599,Debit Card,2 Year,0
+206,Bhavna Mehta,Male,24,0,0,1,Bangalore,Karnataka,2023-11-15,12,Basic,299,Auto Debit,2 Year,0
+207,Mohan Patel,Female,19,0,1,0,Mumbai,Maharashtra,2023-04-18,20,Premium,999,Auto Debit,Annual,0
+208,Bhavna Bhosle,Male,54,0,1,0,Bangalore,Karnataka,2020-11-08,49,Basic,299,Debit Card,2 Year,0
+209,Ganesh Banerjee,Male,38,0,0,0,Indore,Madhya Pradesh,2020-02-11,58,Standard,599,Debit Card,Annual,0
+210,Karan Kothari,Female,37,0,1,1,Coimbatore,Tamil Nadu,2023-06-20,22,Standard,599,Net Banking,2 Year,1
+211,Shobha Ansari,Male,32,0,0,0,Nagpur,Maharashtra,2018-09-09,72,Basic,299,Net Banking,Annual,0
+212,Karan Banerjee,Male,35,0,1,1,Lucknow,Uttar Pradesh,2021-07-10,41,Premium,999,Net Banking,Month-to-Month,0
+213,Geeta Menon,Female,62,1,0,0,Jaipur,Rajasthan,2023-03-25,22,Standard,599,Auto Debit,2 Year,0
+214,Wasim Aggarwal,Female,38,0,0,0,Chandigarh,Punjab,2021-07-15,40,Enterprise,1999,Debit Card,Month-to-Month,0
+215,Deepali Menon,Female,30,0,1,1,Bhopal,Madhya Pradesh,2021-02-22,38,Standard,599,Net Banking,6 Months,1
+216,Anjali Saxena,Female,28,0,1,0,Bangalore,Karnataka,2024-02-02,2,Premium,999,Net Banking,Month-to-Month,0
+217,Geeta Tripathi,Female,44,0,1,0,Coimbatore,Tamil Nadu,2021-08-19,36,Premium,999,Debit Card,Month-to-Month,0
+218,Anil Rao,Female,45,0,1,0,Indore,Madhya Pradesh,2020-11-11,52,Basic,299,UPI,Annual,0
+219,Akash Mehta,Male,54,0,0,0,Lucknow,Uttar Pradesh,2019-09-24,62,Premium,999,Credit Card,Month-to-Month,0
+220,Swati Jain,Female,42,0,0,0,Indore,Madhya Pradesh,2023-08-04,14,Enterprise,1999,Net Banking,2 Year,0
+221,Hema Iyer,Male,55,0,0,0,Coimbatore,Tamil Nadu,2021-02-22,45,Enterprise,1999,Credit Card,Month-to-Month,1
+222,Sanjay Nair,Female,19,0,0,1,Coimbatore,Tamil Nadu,2023-10-18,13,Standard,599,Credit Card,6 Months,0
+223,Rahul Singh,Male,39,0,0,0,Delhi,Delhi,2020-09-27,54,Premium,999,Debit Card,Annual,0
+224,Ramesh Joshi,Male,41,0,0,0,Vishakhapatnam,Andhra Pradesh,2021-02-19,46,Standard,599,UPI,2 Year,1
+225,Rekha Verma,Male,32,0,0,0,Chandigarh,Punjab,2021-12-15,40,Standard,599,Credit Card,Annual,0
+226,Rahul Kothari,Female,19,0,0,1,Kolkata,West Bengal,2021-09-15,44,Enterprise,1999,Net Banking,Month-to-Month,0
+227,Girish Shukla,Male,44,0,0,1,Kolkata,West Bengal,2024-05-25,8,Basic,299,UPI,Annual,0
+228,Vandana Bose,Female,22,0,1,1,Bhopal,Madhya Pradesh,2020-07-21,55,Premium,999,Debit Card,Month-to-Month,0
+229,Naresh Ansari,Female,64,1,1,1,Vadodara,Gujarat,2020-05-07,54,Basic,299,Auto Debit,Month-to-Month,0
+230,Pooja Nair,Female,44,0,0,0,Bhopal,Madhya Pradesh,2019-01-06,65,Standard,599,Auto Debit,2 Year,1
+231,Kamla Shetty,Female,48,0,0,0,Lucknow,Uttar Pradesh,2023-11-21,18,Standard,599,Auto Debit,Month-to-Month,0
+232,Pooja Chandra,Male,49,0,1,0,Jaipur,Rajasthan,2020-11-09,57,Standard,599,Debit Card,Annual,1
+233,Suresh Kulkarni,Male,60,1,1,0,Vadodara,Gujarat,2024-05-16,5,Basic,299,Debit Card,6 Months,1
+234,Karan Pandey,Male,36,0,1,0,Hyderabad,Telangana,2020-08-11,54,Enterprise,1999,UPI,6 Months,0
+235,Vikram Bhosle,Male,58,0,0,1,Kolkata,West Bengal,2023-12-11,15,Premium,999,Debit Card,Month-to-Month,0
+236,Aarav Bhosle,Male,27,0,1,1,Vishakhapatnam,Andhra Pradesh,2023-05-09,13,Enterprise,1999,Debit Card,Annual,0
+237,Meena Bhatt,Male,58,0,0,1,Chennai,Tamil Nadu,2024-02-05,11,Basic,299,Auto Debit,6 Months,0
+238,Vikram Kulkarni,Female,25,0,1,0,Patna,Bihar,2024-07-01,5,Enterprise,1999,Net Banking,6 Months,1
+239,Rahul Shukla,Female,59,0,0,0,Vadodara,Gujarat,2022-03-09,26,Basic,299,Auto Debit,6 Months,0
+240,Uday Kaur,Male,62,1,1,0,Kochi,Kerala,2022-06-28,33,Basic,299,Auto Debit,2 Year,0
+241,Vandana Singh,Female,56,0,0,0,Kochi,Kerala,2020-01-20,59,Enterprise,1999,Debit Card,2 Year,0
+242,Divya Mishra,Female,20,0,0,0,Patna,Bihar,2021-05-18,36,Standard,599,Auto Debit,2 Year,0
+243,Deepak Mishra,Male,26,0,1,0,Jaipur,Rajasthan,2021-05-09,41,Enterprise,1999,Debit Card,6 Months,0
+244,Pooja Aggarwal,Male,48,0,1,1,Pune,Maharashtra,2023-06-23,18,Enterprise,1999,Auto Debit,Annual,1
+245,Manju Jain,Male,43,0,1,0,Coimbatore,Tamil Nadu,2024-03-22,4,Standard,599,Auto Debit,6 Months,0
+246,Suresh Verma,Female,38,0,0,1,Indore,Madhya Pradesh,2021-11-24,37,Enterprise,1999,Auto Debit,2 Year,0
+247,Deepali Tripathi,Female,28,0,1,0,Mumbai,Maharashtra,2021-11-22,41,Standard,599,Auto Debit,2 Year,0
+248,Pallavi Nanda,Female,21,0,1,0,Surat,Gujarat,2020-03-10,48,Premium,999,Net Banking,Annual,0
+249,Akash Mehta,Male,50,0,1,0,Indore,Madhya Pradesh,2024-12-09,11,Premium,999,UPI,2 Year,0
+250,Amit Chandra,Female,47,0,1,0,Vishakhapatnam,Andhra Pradesh,2020-06-11,54,Premium,999,Auto Debit,2 Year,0
+251,Pooja Ansari,Female,29,0,1,0,Lucknow,Uttar Pradesh,2023-10-09,21,Enterprise,1999,Auto Debit,2 Year,0
+252,Suresh Rao,Male,54,0,1,0,Pune,Maharashtra,2019-08-12,61,Basic,299,UPI,Month-to-Month,0
+253,Irfan Lal,Male,63,1,1,1,Vadodara,Gujarat,2024-06-13,4,Enterprise,1999,Net Banking,Month-to-Month,0
+254,Rohit Verma,Female,51,0,1,1,Chennai,Tamil Nadu,2021-12-06,37,Basic,299,Debit Card,Annual,0
+255,Girish Menon,Male,60,1,0,0,Mumbai,Maharashtra,2024-05-20,9,Premium,999,Debit Card,Annual,0
+256,Sunita Kothari,Male,48,0,1,0,Coimbatore,Tamil Nadu,2019-08-04,60,Basic,299,Auto Debit,Month-to-Month,1
+257,Anjali Kulkarni,Male,32,0,1,1,Hyderabad,Telangana,2022-11-10,28,Premium,999,Auto Debit,Annual,0
+258,Anil Verma,Male,35,0,1,1,Patna,Bihar,2024-06-14,3,Standard,599,Debit Card,Annual,0
+259,Hema Singh,Female,22,0,0,1,Chennai,Tamil Nadu,2021-04-15,41,Premium,999,Net Banking,6 Months,0
+260,Kamla Reddy,Female,22,0,0,1,Nagpur,Maharashtra,2022-01-20,24,Premium,999,Net Banking,2 Year,0
+261,Amit Iyer,Male,32,0,1,1,Nagpur,Maharashtra,2022-04-25,27,Standard,599,UPI,6 Months,0
+262,Priya Jain,Male,20,0,0,0,Nagpur,Maharashtra,2023-12-16,19,Standard,599,Debit Card,Month-to-Month,0
+263,Mohan Kumar,Female,48,0,0,0,Hyderabad,Telangana,2019-08-16,60,Enterprise,1999,Auto Debit,2 Year,0
+264,Arjun Iyer,Male,41,0,0,0,Bhopal,Madhya Pradesh,2023-03-21,19,Basic,299,Net Banking,Month-to-Month,1
+265,Swati Shetty,Female,52,0,0,0,Mumbai,Maharashtra,2023-03-28,17,Basic,299,Debit Card,2 Year,0
+266,Sneha Tripathi,Female,42,0,1,0,Lucknow,Uttar Pradesh,2019-01-03,67,Enterprise,1999,Net Banking,2 Year,0
+267,Nisha Jain,Female,18,0,1,0,Nagpur,Maharashtra,2023-05-27,16,Premium,999,Auto Debit,Month-to-Month,1
+268,Karan Bajaj,Female,55,0,1,0,Ahmedabad,Gujarat,2019-09-20,64,Standard,599,Auto Debit,2 Year,0
+269,Anjali Singh,Female,24,0,1,1,Nagpur,Maharashtra,2021-06-08,38,Enterprise,1999,Credit Card,2 Year,0
+270,Divya Nair,Male,60,1,1,1,Vishakhapatnam,Andhra Pradesh,2020-07-04,52,Premium,999,Debit Card,Annual,0
+271,Usha Bose,Male,33,0,1,0,Surat,Gujarat,2021-02-26,41,Premium,999,Credit Card,6 Months,0
+272,Manoj Ansari,Male,44,0,1,0,Chandigarh,Punjab,2023-10-03,19,Premium,999,Credit Card,Month-to-Month,0
+273,Akash Gupta,Female,21,0,0,0,Vadodara,Gujarat,2020-07-10,48,Basic,299,Debit Card,Month-to-Month,1
+274,Pallavi Kulkarni,Female,20,0,0,1,Indore,Madhya Pradesh,2021-09-21,46,Basic,299,Net Banking,Month-to-Month,1
+275,Meena Menon,Male,40,0,1,0,Kolkata,West Bengal,2019-02-15,69,Basic,299,Net Banking,6 Months,0
+276,Arjun Pandey,Female,58,0,0,0,Bangalore,Karnataka,2023-03-24,15,Basic,299,Debit Card,2 Year,0
+277,Rohit Ansari,Male,27,0,1,0,Mumbai,Maharashtra,2021-07-13,44,Premium,999,Debit Card,Annual,0
+278,Vandana Gupta,Female,54,0,0,1,Indore,Madhya Pradesh,2023-05-22,16,Standard,599,Credit Card,Month-to-Month,0
+279,Ramesh Menon,Male,41,0,0,0,Patna,Bihar,2021-12-07,44,Premium,999,Net Banking,6 Months,0
+280,Divya Iyer,Female,30,0,1,1,Surat,Gujarat,2023-08-11,20,Standard,599,UPI,Month-to-Month,0
+281,Pallavi Ansari,Female,39,0,0,1,Surat,Gujarat,2024-03-04,11,Premium,999,Credit Card,6 Months,0
+282,Kamla Ansari,Female,37,0,1,0,Mumbai,Maharashtra,2020-12-13,49,Standard,599,Net Banking,2 Year,0
+283,Aarav Bhatt,Male,22,0,0,0,Vishakhapatnam,Andhra Pradesh,2023-04-24,20,Enterprise,1999,UPI,Month-to-Month,0
+284,Anjali Iyer,Female,28,0,1,0,Ahmedabad,Gujarat,2020-05-27,51,Premium,999,Auto Debit,2 Year,0
+285,Wasim Tiwari,Female,62,1,1,1,Delhi,Delhi,2021-08-15,46,Enterprise,1999,Net Banking,2 Year,0
+286,Nisha Rao,Female,49,0,1,0,Chandigarh,Punjab,2022-11-10,28,Enterprise,1999,Net Banking,Month-to-Month,0
+287,Chirag Ansari,Male,63,1,0,1,Ahmedabad,Gujarat,2022-07-25,31,Standard,599,Net Banking,2 Year,1
+288,Meena Saxena,Female,27,0,0,1,Kolkata,West Bengal,2021-03-15,38,Basic,299,Credit Card,2 Year,0
+289,Vandana Ansari,Male,50,0,0,0,Delhi,Delhi,2024-02-17,8,Standard,599,Net Banking,Month-to-Month,1
+290,Nisha Verma,Male,38,0,1,1,Chandigarh,Punjab,2021-11-23,42,Enterprise,1999,Net Banking,Month-to-Month,0
+291,Deepali Chandra,Female,19,0,0,0,Patna,Bihar,2020-02-24,58,Enterprise,1999,Debit Card,6 Months,0
+292,Eshan Rao,Male,57,0,0,1,Bangalore,Karnataka,2023-05-15,14,Basic,299,Credit Card,Month-to-Month,1
+293,Hema Shukla,Female,35,0,0,0,Jaipur,Rajasthan,2024-11-13,3,Enterprise,1999,Credit Card,6 Months,1
+294,Mohan Mishra,Female,43,0,0,1,Coimbatore,Tamil Nadu,2020-06-14,48,Enterprise,1999,UPI,Annual,1
+295,Jagdish Bose,Male,43,0,1,0,Vadodara,Gujarat,2019-11-21,67,Enterprise,1999,Debit Card,Annual,0
+296,Swati Desai,Female,45,0,1,1,Lucknow,Uttar Pradesh,2019-01-09,62,Basic,299,Net Banking,Month-to-Month,0
+297,Ganesh Verma,Female,61,1,1,1,Coimbatore,Tamil Nadu,2024-09-21,4,Enterprise,1999,Credit Card,6 Months,0
+298,Irfan Aggarwal,Female,58,0,0,1,Surat,Gujarat,2019-09-23,70,Basic,299,Net Banking,2 Year,0
+299,Sunita Ghosh,Female,30,0,0,0,Kolkata,West Bengal,2019-09-21,61,Enterprise,1999,Net Banking,6 Months,0
+300,Bhavna Malhotra,Female,59,0,1,0,Bhopal,Madhya Pradesh,2023-10-01,21,Standard,599,Auto Debit,Annual,0
+301,Chirag Jain,Female,36,0,0,0,Jaipur,Rajasthan,2019-05-07,66,Standard,599,UPI,Annual,0
+302,Vandana Nanda,Female,39,0,1,0,Vadodara,Gujarat,2023-09-13,19,Premium,999,Auto Debit,Month-to-Month,1
+303,Deepak Shetty,Male,32,0,0,0,Ahmedabad,Gujarat,2022-09-19,29,Premium,999,Auto Debit,Annual,0
+304,Divya Banerjee,Male,46,0,0,1,Patna,Bihar,2023-11-16,20,Enterprise,1999,Auto Debit,2 Year,0
+305,Priya Bajaj,Male,64,1,1,1,Bhopal,Madhya Pradesh,2020-05-12,58,Enterprise,1999,Credit Card,2 Year,0
+306,Divya Gupta,Male,59,0,1,0,Coimbatore,Tamil Nadu,2023-01-26,23,Premium,999,Auto Debit,2 Year,0
+307,Sunita Nanda,Male,63,1,0,1,Pune,Maharashtra,2023-01-10,15,Standard,599,Debit Card,Month-to-Month,0
+308,Nisha Singh,Male,46,0,1,1,Ahmedabad,Gujarat,2022-08-05,33,Enterprise,1999,Net Banking,2 Year,0
+309,Ramesh Tripathi,Male,57,0,1,1,Nagpur,Maharashtra,2020-09-19,59,Premium,999,Auto Debit,Annual,1
+310,Rohit Saxena,Female,22,0,0,0,Kochi,Kerala,2022-06-20,29,Enterprise,1999,Debit Card,2 Year,0
+311,Girish Singh,Male,41,0,1,1,Nagpur,Maharashtra,2023-07-14,16,Premium,999,Debit Card,2 Year,0
+312,Rohit Kothari,Female,20,0,1,0,Bangalore,Karnataka,2024-10-10,1,Standard,599,Debit Card,2 Year,0
+313,Suresh Desai,Male,47,0,0,0,Ahmedabad,Gujarat,2023-02-15,20,Standard,599,Credit Card,Month-to-Month,1
+314,Kamla Shetty,Female,54,0,1,0,Nagpur,Maharashtra,2022-06-05,24,Basic,299,Debit Card,Annual,1
+315,Mohan Kothari,Female,48,0,1,0,Bangalore,Karnataka,2020-05-10,54,Enterprise,1999,Auto Debit,6 Months,0
+316,Vikram Chandra,Female,44,0,1,0,Jaipur,Rajasthan,2023-05-18,21,Enterprise,1999,Debit Card,6 Months,0
+317,Naresh Tripathi,Female,28,0,0,1,Kolkata,West Bengal,2022-07-11,25,Enterprise,1999,Auto Debit,Month-to-Month,0
+318,Chirag Iyer,Female,37,0,0,0,Ahmedabad,Gujarat,2019-11-05,69,Enterprise,1999,UPI,Month-to-Month,0
+319,Sneha Jain,Female,53,0,1,0,Lucknow,Uttar Pradesh,2019-01-10,70,Basic,299,Auto Debit,Annual,0
+320,Aarav Aggarwal,Male,54,0,0,1,Jaipur,Rajasthan,2022-10-22,25,Enterprise,1999,Auto Debit,6 Months,0
+321,Amit Tripathi,Male,31,0,0,0,Chennai,Tamil Nadu,2021-07-04,36,Basic,299,Auto Debit,Month-to-Month,1
+322,Deepali Pandey,Male,30,0,0,1,Patna,Bihar,2021-08-05,36,Enterprise,1999,Net Banking,Annual,1
+323,Priya Iyer,Female,44,0,0,0,Vadodara,Gujarat,2021-12-25,44,Basic,299,Net Banking,6 Months,0
+324,Karan Patel,Female,18,0,0,0,Jaipur,Rajasthan,2020-04-20,53,Basic,299,UPI,2 Year,1
+325,Sanjay Verma,Male,47,0,0,0,Lucknow,Uttar Pradesh,2024-06-21,8,Enterprise,1999,Debit Card,6 Months,0
+326,Sneha Pandey,Male,25,0,0,0,Vadodara,Gujarat,2018-03-08,72,Enterprise,1999,Net Banking,6 Months,0
+327,Rohit Sharma,Male,60,1,0,0,Mumbai,Maharashtra,2024-12-07,4,Basic,299,Credit Card,Annual,0
+328,Girish Patel,Male,45,0,0,1,Chandigarh,Punjab,2019-07-12,60,Basic,299,Credit Card,Month-to-Month,0
+329,Amit Gupta,Female,21,0,0,1,Jaipur,Rajasthan,2023-11-06,16,Enterprise,1999,UPI,Month-to-Month,0
+330,Rohit Menon,Male,58,0,1,0,Lucknow,Uttar Pradesh,2020-07-26,50,Standard,599,UPI,Annual,0
+331,Ganesh Gupta,Female,33,0,0,1,Lucknow,Uttar Pradesh,2022-12-04,27,Standard,599,Debit Card,Annual,0
+332,Rajiv Mehta,Male,50,0,0,0,Patna,Bihar,2020-10-04,53,Basic,299,Credit Card,6 Months,0
+333,Sarita Ghosh,Male,19,0,0,0,Nagpur,Maharashtra,2023-02-08,18,Enterprise,1999,Debit Card,6 Months,0
+334,Ganesh Nanda,Female,38,0,1,1,Bangalore,Karnataka,2022-01-27,28,Basic,299,Debit Card,6 Months,0
+335,Deepali Bose,Male,64,1,1,0,Vishakhapatnam,Andhra Pradesh,2023-09-12,16,Basic,299,Credit Card,Annual,0
+336,Swati Kothari,Female,58,0,1,0,Indore,Madhya Pradesh,2022-10-20,32,Standard,599,UPI,Month-to-Month,0
+337,Akash Pandey,Male,60,1,0,1,Nagpur,Maharashtra,2021-06-14,47,Standard,599,Auto Debit,6 Months,0
+338,Lokesh Joshi,Female,30,0,0,1,Jaipur,Rajasthan,2022-11-02,35,Enterprise,1999,Auto Debit,6 Months,0
+339,Vikram Gupta,Male,26,0,1,0,Patna,Bihar,2020-12-28,52,Enterprise,1999,Debit Card,6 Months,0
+340,Arjun Nanda,Male,52,0,0,1,Kochi,Kerala,2021-11-18,45,Enterprise,1999,Credit Card,6 Months,0
+341,Divya Bajaj,Female,52,0,1,0,Coimbatore,Tamil Nadu,2022-12-27,24,Basic,299,Debit Card,Annual,0
+342,Aarav Bhatt,Male,46,0,0,0,Vadodara,Gujarat,2023-10-05,14,Premium,999,Net Banking,6 Months,0
+343,Chirag Bhosle,Female,47,0,0,0,Chandigarh,Punjab,2024-08-13,5,Enterprise,1999,Credit Card,Annual,0
+344,Sarita Sharma,Female,59,0,1,0,Indore,Madhya Pradesh,2022-07-13,24,Standard,599,UPI,Month-to-Month,0
+345,Lalitha Kothari,Male,62,1,0,0,Ahmedabad,Gujarat,2022-09-23,29,Premium,999,Auto Debit,Annual,0
+346,Sunita Jain,Female,23,0,0,1,Delhi,Delhi,2021-08-04,47,Standard,599,Net Banking,Annual,0
+347,Akash Verma,Male,18,0,1,1,Kochi,Kerala,2022-03-11,35,Premium,999,Debit Card,6 Months,0
+348,Arjun Joshi,Male,38,0,1,1,Nagpur,Maharashtra,2024-09-07,9,Standard,599,Credit Card,Annual,0
+349,Rekha Kumar,Male,31,0,0,0,Chandigarh,Punjab,2023-10-05,23,Basic,299,Debit Card,6 Months,0
+350,Arjun Menon,Male,54,0,1,1,Chennai,Tamil Nadu,2024-12-04,5,Premium,999,Debit Card,Month-to-Month,1
+351,Hema Rao,Male,52,0,1,1,Coimbatore,Tamil Nadu,2022-08-24,27,Premium,999,Auto Debit,Annual,0
+352,Wasim Shukla,Female,33,0,0,1,Chandigarh,Punjab,2023-12-26,17,Standard,599,Credit Card,Month-to-Month,0
+353,Meena Rao,Male,59,0,0,1,Indore,Madhya Pradesh,2024-04-28,11,Premium,999,Credit Card,2 Year,0
+354,Pooja Nanda,Female,47,0,0,0,Bhopal,Madhya Pradesh,2023-07-04,18,Basic,299,Credit Card,Month-to-Month,1
+355,Arjun Bhatt,Male,54,0,1,0,Mumbai,Maharashtra,2021-10-07,42,Standard,599,Debit Card,Annual,0
+356,Nisha Ghosh,Female,45,0,1,0,Delhi,Delhi,2023-05-02,16,Premium,999,Auto Debit,6 Months,0
+357,Manju Joshi,Female,25,0,0,0,Chandigarh,Punjab,2024-07-09,5,Standard,599,Credit Card,2 Year,0
+358,Sarita Jain,Male,37,0,0,0,Kochi,Kerala,2022-10-14,26,Enterprise,1999,Debit Card,Month-to-Month,1
+359,Kavita Tripathi,Male,45,0,0,0,Bhopal,Madhya Pradesh,2023-08-19,13,Premium,999,UPI,Month-to-Month,0
+360,Rajiv Lal,Male,65,1,0,0,Vadodara,Gujarat,2021-08-10,38,Basic,299,Net Banking,2 Year,0
+361,Eshan Singh,Male,24,0,1,0,Jaipur,Rajasthan,2019-02-15,70,Basic,299,Debit Card,Annual,0
+362,Ganesh Kothari,Female,28,0,1,0,Jaipur,Rajasthan,2020-01-19,55,Standard,599,Net Banking,2 Year,0
+363,Bhavna Shetty,Male,35,0,1,0,Mumbai,Maharashtra,2020-09-11,58,Premium,999,Debit Card,Month-to-Month,1
+364,Jagdish Banerjee,Female,39,0,1,0,Mumbai,Maharashtra,2022-06-25,24,Standard,599,Credit Card,Annual,0
+365,Shobha Shukla,Male,24,0,1,0,Chennai,Tamil Nadu,2022-06-20,35,Basic,299,Net Banking,Annual,1
+366,Girish Nair,Female,61,1,0,1,Bhopal,Madhya Pradesh,2024-04-14,8,Standard,599,Auto Debit,2 Year,0
+367,Usha Saxena,Female,18,0,1,1,Pune,Maharashtra,2021-09-01,40,Premium,999,Net Banking,Annual,0
+368,Karan Nair,Male,35,0,1,0,Pune,Maharashtra,2023-09-01,13,Basic,299,UPI,Annual,1
+369,Arjun Joshi,Male,62,1,1,0,Vadodara,Gujarat,2022-11-14,30,Premium,999,UPI,Annual,0
+370,Ganesh Tiwari,Male,48,0,0,1,Bangalore,Karnataka,2021-01-09,46,Basic,299,Auto Debit,Month-to-Month,1
+371,Rekha Kaur,Female,24,0,0,1,Vadodara,Gujarat,2024-09-24,2,Premium,999,Debit Card,Month-to-Month,1
+372,Vikram Ansari,Male,29,0,0,0,Kolkata,West Bengal,2019-01-27,67,Basic,299,Auto Debit,6 Months,1
+373,Deepali Verma,Male,38,0,0,0,Kolkata,West Bengal,2021-04-24,40,Enterprise,1999,Auto Debit,Annual,0
+374,Tarun Ansari,Female,57,0,0,0,Coimbatore,Tamil Nadu,2020-09-18,52,Standard,599,Net Banking,2 Year,0
+375,Divya Shukla,Female,54,0,1,1,Mumbai,Maharashtra,2020-02-15,48,Standard,599,Credit Card,2 Year,0
+376,Irfan Ansari,Female,64,1,1,1,Mumbai,Maharashtra,2024-01-15,7,Basic,299,Net Banking,6 Months,1
+377,Arjun Kulkarni,Female,20,0,0,0,Delhi,Delhi,2019-05-23,60,Basic,299,Net Banking,Annual,0
+378,Rahul Aggarwal,Female,39,0,1,1,Ahmedabad,Gujarat,2023-01-24,20,Enterprise,1999,Auto Debit,Month-to-Month,0
+379,Rekha Ansari,Male,64,1,1,0,Pune,Maharashtra,2024-08-21,2,Basic,299,Auto Debit,Annual,0
+380,Aarav Nair,Male,29,0,0,0,Chennai,Tamil Nadu,2020-07-25,57,Premium,999,Auto Debit,Annual,0
+381,Rekha Kothari,Male,18,0,0,1,Hyderabad,Telangana,2021-09-20,36,Premium,999,Debit Card,Month-to-Month,0
+382,Tarun Menon,Male,48,0,1,0,Patna,Bihar,2022-11-07,34,Basic,299,Debit Card,2 Year,0
+383,Karan Kumar,Male,65,1,1,0,Mumbai,Maharashtra,2024-11-25,5,Basic,299,Net Banking,Month-to-Month,0
+384,Anil Aggarwal,Female,22,0,0,0,Pune,Maharashtra,2022-02-03,33,Enterprise,1999,Net Banking,Month-to-Month,0
+385,Wasim Iyer,Male,65,1,1,0,Coimbatore,Tamil Nadu,2019-06-08,60,Enterprise,1999,Debit Card,Month-to-Month,0
+386,Pallavi Jain,Male,64,1,1,0,Kolkata,West Bengal,2023-11-05,17,Basic,299,Credit Card,2 Year,0
+387,Manju Kumar,Female,59,0,1,1,Mumbai,Maharashtra,2023-10-02,21,Basic,299,Net Banking,Month-to-Month,0
+388,Lalitha Reddy,Female,54,0,0,1,Bangalore,Karnataka,2019-05-10,66,Enterprise,1999,UPI,Annual,0
+389,Akash Mehta,Male,44,0,1,1,Vishakhapatnam,Andhra Pradesh,2023-04-18,19,Standard,599,UPI,Month-to-Month,1
+390,Usha Bose,Male,48,0,0,1,Coimbatore,Tamil Nadu,2022-05-05,35,Enterprise,1999,Net Banking,2 Year,1
+391,Deepali Bhosle,Female,30,0,1,1,Coimbatore,Tamil Nadu,2022-04-23,32,Standard,599,Net Banking,Month-to-Month,0
+392,Naresh Nanda,Male,35,0,0,0,Jaipur,Rajasthan,2019-12-17,64,Basic,299,Credit Card,2 Year,0
+393,Jagdish Verma,Male,37,0,0,1,Bangalore,Karnataka,2022-10-10,24,Premium,999,Net Banking,6 Months,0
+394,Manoj Kulkarni,Female,56,0,1,0,Chandigarh,Punjab,2023-04-05,23,Basic,299,UPI,Annual,1
+395,Girish Kulkarni,Male,46,0,0,0,Nagpur,Maharashtra,2022-03-23,34,Standard,599,Debit Card,6 Months,0
+396,Ganesh Bajaj,Male,24,0,0,1,Jaipur,Rajasthan,2022-11-18,31,Basic,299,Net Banking,Annual,0
+397,Amit Ansari,Female,39,0,1,0,Nagpur,Maharashtra,2020-08-18,55,Premium,999,Credit Card,Month-to-Month,0
+398,Manoj Nair,Female,29,0,1,1,Vishakhapatnam,Andhra Pradesh,2023-11-18,17,Enterprise,1999,Net Banking,Month-to-Month,0
+399,Aarav Gupta,Female,26,0,1,1,Mumbai,Maharashtra,2020-07-10,54,Enterprise,1999,Net Banking,Annual,0
+400,Hema Menon,Female,38,0,0,0,Ahmedabad,Gujarat,2022-06-04,27,Basic,299,UPI,2 Year,1
+401,Bhavna Joshi,Male,54,0,1,1,Indore,Madhya Pradesh,2022-10-09,32,Standard,599,UPI,Annual,0
+402,Vandana Shetty,Male,42,0,0,0,Lucknow,Uttar Pradesh,2024-12-28,9,Standard,599,Auto Debit,6 Months,0
+403,Tarun Shukla,Male,21,0,1,0,Surat,Gujarat,2022-01-28,27,Premium,999,Debit Card,6 Months,0
+404,Lokesh Kothari,Female,27,0,0,1,Delhi,Delhi,2023-04-02,12,Enterprise,1999,Net Banking,Annual,0
+405,Rekha Sharma,Male,19,0,1,1,Ahmedabad,Gujarat,2022-12-23,29,Standard,599,UPI,2 Year,1
+406,Eshan Verma,Male,21,0,1,1,Lucknow,Uttar Pradesh,2020-08-21,48,Basic,299,Net Banking,2 Year,0
+407,Sneha Joshi,Male,47,0,1,0,Chandigarh,Punjab,2019-08-28,66,Basic,299,Debit Card,Annual,1
+408,Ganesh Iyer,Female,55,0,0,0,Jaipur,Rajasthan,2020-05-10,49,Standard,599,Debit Card,Month-to-Month,0
+409,Mohan Nair,Male,40,0,0,1,Indore,Madhya Pradesh,2019-03-19,70,Basic,299,Debit Card,6 Months,0
+410,Deepali Bhosle,Male,20,0,0,0,Delhi,Delhi,2022-02-27,35,Standard,599,Debit Card,Month-to-Month,1
+411,Manju Joshi,Female,45,0,0,0,Vishakhapatnam,Andhra Pradesh,2023-03-06,17,Standard,599,UPI,6 Months,1
+412,Usha Shetty,Male,19,0,1,0,Bhopal,Madhya Pradesh,2023-09-11,22,Basic,299,Credit Card,Month-to-Month,1
+413,Mohan Nair,Male,39,0,1,0,Chandigarh,Punjab,2023-07-18,15,Enterprise,1999,Debit Card,2 Year,0
+414,Aarav Bhosle,Female,24,0,1,1,Chandigarh,Punjab,2022-02-15,35,Standard,599,Credit Card,6 Months,0
+415,Priya Shukla,Female,53,0,1,1,Mumbai,Maharashtra,2020-05-03,59,Premium,999,Net Banking,Annual,0
+416,Rohit Tiwari,Male,26,0,1,0,Indore,Madhya Pradesh,2020-09-06,59,Basic,299,Net Banking,2 Year,0
+417,Anil Menon,Male,24,0,1,1,Indore,Madhya Pradesh,2021-09-09,46,Standard,599,Credit Card,Annual,0
+418,Geeta Shetty,Male,43,0,1,0,Vadodara,Gujarat,2020-02-11,48,Standard,599,UPI,Month-to-Month,0
+419,Manoj Bhosle,Female,38,0,1,1,Ahmedabad,Gujarat,2024-04-04,1,Enterprise,1999,Credit Card,6 Months,1
+420,Suresh Bajaj,Male,57,0,1,0,Surat,Gujarat,2024-06-10,11,Enterprise,1999,Credit Card,Month-to-Month,0
+421,Geeta Pandey,Female,50,0,0,0,Kochi,Kerala,2019-02-28,69,Basic,299,Debit Card,6 Months,0
+422,Divya Ghosh,Male,65,1,0,1,Patna,Bihar,2020-04-27,49,Standard,599,Auto Debit,2 Year,0
+423,Naresh Aggarwal,Female,57,0,1,1,Lucknow,Uttar Pradesh,2020-11-23,59,Premium,999,Net Banking,6 Months,0
+424,Sarita Malhotra,Female,45,0,1,0,Nagpur,Maharashtra,2019-06-19,69,Basic,299,Credit Card,6 Months,1
+425,Wasim Nair,Female,33,0,1,0,Mumbai,Maharashtra,2019-06-04,69,Standard,599,Auto Debit,2 Year,0
+426,Anil Rao,Female,21,0,1,0,Vishakhapatnam,Andhra Pradesh,2024-11-10,1,Premium,999,Auto Debit,Annual,0
+427,Sunita Chandra,Male,51,0,0,1,Pune,Maharashtra,2024-01-04,11,Enterprise,1999,UPI,Annual,0
+428,Pallavi Tripathi,Female,62,1,1,1,Jaipur,Rajasthan,2024-06-04,1,Standard,599,Debit Card,Annual,0
+429,Rekha Tripathi,Male,48,0,0,0,Lucknow,Uttar Pradesh,2020-10-04,58,Basic,299,UPI,Month-to-Month,0
+430,Manju Rao,Male,59,0,1,0,Vadodara,Gujarat,2024-03-25,10,Basic,299,Auto Debit,2 Year,1
+431,Tarun Tripathi,Male,62,1,0,1,Patna,Bihar,2023-07-26,22,Basic,299,Debit Card,Month-to-Month,1
+432,Pallavi Joshi,Female,28,0,1,1,Coimbatore,Tamil Nadu,2019-04-14,71,Basic,299,Net Banking,Month-to-Month,1
+433,Akash Pillai,Female,19,0,1,0,Vadodara,Gujarat,2023-01-05,18,Premium,999,UPI,Annual,1
+434,Lalitha Ansari,Female,30,0,0,1,Chandigarh,Punjab,2020-09-14,51,Standard,599,Debit Card,Annual,0
+435,Irfan Tripathi,Male,33,0,0,1,Patna,Bihar,2023-07-26,15,Basic,299,Credit Card,Month-to-Month,1
+436,Akash Kothari,Female,35,0,0,0,Chandigarh,Punjab,2022-02-04,29,Standard,599,Net Banking,Month-to-Month,0
+437,Irfan Bhosle,Male,62,1,1,1,Bangalore,Karnataka,2019-03-13,65,Standard,599,Debit Card,6 Months,1
+438,Vandana Singh,Male,60,1,1,0,Lucknow,Uttar Pradesh,2020-01-09,51,Basic,299,Credit Card,Month-to-Month,1
+439,Meena Mishra,Male,46,0,0,0,Chennai,Tamil Nadu,2020-06-08,54,Standard,599,UPI,2 Year,1
+440,Karan Malhotra,Female,50,0,0,1,Lucknow,Uttar Pradesh,2019-04-10,62,Premium,999,Debit Card,6 Months,1
+441,Manoj Pillai,Female,39,0,1,0,Ahmedabad,Gujarat,2021-07-09,37,Standard,599,Credit Card,Annual,0
+442,Girish Joshi,Male,24,0,1,0,Ahmedabad,Gujarat,2019-11-25,64,Basic,299,Auto Debit,2 Year,0
+443,Manoj Nanda,Male,44,0,1,0,Hyderabad,Telangana,2023-04-22,14,Enterprise,1999,Credit Card,Month-to-Month,0
+444,Manju Verma,Female,43,0,0,1,Kolkata,West Bengal,2022-09-12,24,Standard,599,Credit Card,2 Year,0
+445,Deepali Aggarwal,Female,28,0,0,1,Jaipur,Rajasthan,2021-09-03,37,Standard,599,Credit Card,6 Months,0
+446,Pooja Jain,Female,44,0,0,1,Kochi,Kerala,2022-04-18,34,Standard,599,Net Banking,2 Year,0
+447,Rekha Mehta,Female,38,0,0,1,Kochi,Kerala,2021-02-27,40,Standard,599,Auto Debit,Month-to-Month,1
+448,Mohan Singh,Female,51,0,0,0,Jaipur,Rajasthan,2019-06-25,67,Enterprise,1999,Auto Debit,6 Months,0
+449,Jagdish Desai,Male,21,0,0,0,Pune,Maharashtra,2023-08-27,23,Standard,599,Debit Card,2 Year,0
+450,Ramesh Nanda,Male,31,0,0,1,Mumbai,Maharashtra,2024-01-10,11,Enterprise,1999,Debit Card,2 Year,0
+451,Vandana Joshi,Female,32,0,0,0,Indore,Madhya Pradesh,2021-12-14,45,Basic,299,UPI,2 Year,0
+452,Vikram Lal,Female,28,0,0,0,Delhi,Delhi,2022-05-18,24,Basic,299,UPI,Annual,0
+453,Deepak Rao,Male,28,0,1,0,Indore,Madhya Pradesh,2020-03-27,55,Standard,599,Credit Card,Month-to-Month,0
+454,Ramesh Bhatt,Male,24,0,0,0,Vishakhapatnam,Andhra Pradesh,2023-08-12,17,Standard,599,Net Banking,2 Year,0
+455,Sanjay Tiwari,Male,22,0,0,1,Hyderabad,Telangana,2021-05-07,46,Standard,599,UPI,Annual,0
+456,Rekha Rao,Male,55,0,1,0,Pune,Maharashtra,2018-06-15,72,Enterprise,1999,UPI,Month-to-Month,0
+457,Jagdish Tripathi,Male,37,0,0,1,Pune,Maharashtra,2020-11-01,58,Standard,599,Auto Debit,2 Year,1
+458,Swati Kulkarni,Male,57,0,1,0,Vadodara,Gujarat,2023-10-08,23,Standard,599,Debit Card,Annual,0
+459,Mohan Joshi,Male,59,0,1,0,Mumbai,Maharashtra,2022-12-04,34,Premium,999,Credit Card,2 Year,0
+460,Meena Mishra,Male,28,0,1,1,Delhi,Delhi,2021-08-06,37,Standard,599,Net Banking,Annual,0
+461,Lalitha Jain,Female,38,0,1,0,Ahmedabad,Gujarat,2024-11-14,3,Basic,299,Auto Debit,6 Months,1
+462,Swati Aggarwal,Male,54,0,1,0,Vishakhapatnam,Andhra Pradesh,2024-01-25,5,Basic,299,Debit Card,2 Year,0
+463,Girish Ansari,Female,23,0,1,0,Jaipur,Rajasthan,2024-11-20,3,Enterprise,1999,Auto Debit,2 Year,0
+464,Mohan Tripathi,Male,29,0,0,1,Kolkata,West Bengal,2024-10-19,8,Basic,299,Net Banking,6 Months,1
+465,Bhavna Bhatt,Male,46,0,0,1,Vadodara,Gujarat,2022-09-17,25,Basic,299,UPI,Annual,0
+466,Sneha Lal,Male,44,0,0,0,Chennai,Tamil Nadu,2021-09-21,39,Basic,299,Net Banking,Month-to-Month,0
+467,Girish Tripathi,Male,26,0,0,0,Indore,Madhya Pradesh,2024-08-02,2,Basic,299,Auto Debit,6 Months,0
+468,Aarav Mishra,Male,35,0,1,1,Vadodara,Gujarat,2020-03-25,58,Enterprise,1999,Credit Card,6 Months,0
+469,Nisha Kulkarni,Female,32,0,1,1,Chennai,Tamil Nadu,2020-10-03,55,Basic,299,Net Banking,2 Year,1
+470,Rekha Iyer,Male,65,1,1,1,Vadodara,Gujarat,2019-06-25,62,Enterprise,1999,Auto Debit,2 Year,0
+471,Meena Pandey,Female,36,0,0,0,Delhi,Delhi,2024-06-05,10,Standard,599,UPI,Month-to-Month,0
+472,Lalitha Bhosle,Female,18,0,0,1,Chennai,Tamil Nadu,2024-07-04,11,Enterprise,1999,UPI,6 Months,0
+473,Wasim Kulkarni,Male,48,0,0,1,Chandigarh,Punjab,2022-05-28,25,Standard,599,Net Banking,Month-to-Month,0
+474,Ramesh Saxena,Female,63,1,1,0,Jaipur,Rajasthan,2020-08-01,51,Premium,999,Debit Card,Month-to-Month,1
+475,Hema Bhatt,Female,42,0,0,0,Bangalore,Karnataka,2021-12-14,37,Enterprise,1999,Auto Debit,6 Months,1
+476,Rajiv Menon,Male,24,0,0,1,Hyderabad,Telangana,2021-07-08,43,Premium,999,Auto Debit,Annual,0
+477,Mohan Mishra,Female,38,0,0,0,Ahmedabad,Gujarat,2020-02-24,49,Basic,299,UPI,6 Months,0
+478,Rekha Kothari,Female,55,0,0,0,Delhi,Delhi,2023-03-01,16,Standard,599,Credit Card,6 Months,0
+479,Deepak Shukla,Male,36,0,0,0,Vishakhapatnam,Andhra Pradesh,2021-12-18,37,Premium,999,Debit Card,Month-to-Month,0
+480,Swati Malhotra,Male,19,0,0,1,Surat,Gujarat,2024-11-24,10,Premium,999,Debit Card,Month-to-Month,0
+481,Lokesh Aggarwal,Female,52,0,0,1,Coimbatore,Tamil Nadu,2020-07-04,51,Enterprise,1999,UPI,2 Year,0
+482,Sunita Tiwari,Male,47,0,1,1,Indore,Madhya Pradesh,2020-10-23,49,Standard,599,UPI,6 Months,0
+483,Divya Bhatt,Female,62,1,1,1,Jaipur,Rajasthan,2021-10-23,44,Standard,599,Net Banking,Month-to-Month,0
+484,Vikram Malhotra,Male,26,0,1,0,Lucknow,Uttar Pradesh,2021-08-09,37,Basic,299,Credit Card,2 Year,1
+485,Ganesh Bajaj,Female,52,0,0,1,Coimbatore,Tamil Nadu,2021-01-28,36,Basic,299,UPI,2 Year,0
+486,Sanjay Kothari,Female,63,1,0,1,Chandigarh,Punjab,2021-12-15,39,Enterprise,1999,UPI,6 Months,0
+487,Nisha Kulkarni,Female,25,0,1,0,Indore,Madhya Pradesh,2024-07-05,7,Basic,299,Auto Debit,6 Months,1
+488,Rajiv Patil,Male,38,0,1,1,Jaipur,Rajasthan,2023-09-19,14,Standard,599,Debit Card,Annual,0
+489,Akash Bajaj,Male,49,0,1,0,Coimbatore,Tamil Nadu,2023-06-13,18,Premium,999,UPI,6 Months,0
+490,Nisha Patel,Male,23,0,0,1,Ahmedabad,Gujarat,2021-05-05,46,Standard,599,UPI,Annual,1
+491,Mohan Ghosh,Female,51,0,0,1,Lucknow,Uttar Pradesh,2022-03-27,27,Basic,299,Net Banking,6 Months,0
+492,Girish Ansari,Female,20,0,0,1,Delhi,Delhi,2020-08-19,55,Premium,999,UPI,2 Year,0
+493,Lalitha Shukla,Male,50,0,0,0,Kolkata,West Bengal,2022-11-16,34,Enterprise,1999,Net Banking,6 Months,0
+494,Lokesh Lal,Male,25,0,0,1,Delhi,Delhi,2024-10-18,7,Enterprise,1999,Auto Debit,6 Months,1
+495,Swati Malhotra,Male,31,0,1,1,Vadodara,Gujarat,2023-11-23,14,Basic,299,UPI,Month-to-Month,1
+496,Priya Pandey,Male,64,1,1,0,Bhopal,Madhya Pradesh,2020-10-11,55,Premium,999,Credit Card,Month-to-Month,0
+497,Rajiv Bose,Male,53,0,1,1,Bangalore,Karnataka,2021-08-07,45,Premium,999,Auto Debit,6 Months,0
+498,Deepak Rao,Male,19,0,1,0,Kolkata,West Bengal,2023-09-07,20,Enterprise,1999,UPI,Month-to-Month,0
+499,Girish Kaur,Female,22,0,1,0,Vishakhapatnam,Andhra Pradesh,2021-05-01,42,Standard,599,UPI,Annual,0
+500,Akash Patel,Male,31,0,1,1,Mumbai,Maharashtra,2019-12-24,71,Premium,999,Credit Card,6 Months,0
+501,Deepak Sharma,Male,38,0,1,1,Coimbatore,Tamil Nadu,2021-09-07,37,Standard,599,Net Banking,2 Year,1
+502,Deepali Sharma,Male,45,0,1,0,Chennai,Tamil Nadu,2022-01-13,26,Standard,599,Credit Card,Annual,1
+503,Arjun Singh,Male,60,1,1,1,Hyderabad,Telangana,2024-04-19,6,Basic,299,Credit Card,6 Months,1
+504,Anil Tripathi,Female,39,0,1,0,Bangalore,Karnataka,2023-08-25,23,Enterprise,1999,Net Banking,Annual,0
+505,Wasim Reddy,Male,24,0,1,1,Lucknow,Uttar Pradesh,2021-12-21,44,Enterprise,1999,Credit Card,6 Months,0
+506,Naresh Kulkarni,Male,23,0,0,1,Patna,Bihar,2024-07-02,4,Standard,599,Credit Card,2 Year,0
+507,Hema Chandra,Female,43,0,1,0,Surat,Gujarat,2022-01-07,27,Standard,599,Auto Debit,Month-to-Month,0
+508,Ganesh Jain,Male,24,0,0,0,Vadodara,Gujarat,2021-07-16,37,Basic,299,Auto Debit,Annual,0
+509,Meena Shukla,Male,27,0,0,1,Jaipur,Rajasthan,2024-12-16,8,Standard,599,UPI,6 Months,0
+510,Chirag Pillai,Female,26,0,1,1,Nagpur,Maharashtra,2019-08-13,63,Basic,299,Auto Debit,6 Months,0
+511,Mohan Shukla,Male,40,0,1,1,Jaipur,Rajasthan,2021-01-05,44,Standard,599,UPI,6 Months,0
+512,Chirag Nair,Male,27,0,1,1,Patna,Bihar,2020-05-13,50,Enterprise,1999,Debit Card,Annual,0
+513,Girish Iyer,Female,51,0,0,0,Chennai,Tamil Nadu,2022-02-02,25,Premium,999,Auto Debit,Annual,0
+514,Pallavi Shukla,Male,56,0,0,0,Delhi,Delhi,2019-05-04,60,Standard,599,Credit Card,6 Months,0
+515,Hema Singh,Female,35,0,0,1,Vadodara,Gujarat,2022-03-17,24,Basic,299,Net Banking,2 Year,0
+516,Kavita Pillai,Male,49,0,0,0,Patna,Bihar,2022-05-06,24,Premium,999,Credit Card,Annual,0
+517,Sarita Menon,Male,20,0,1,0,Ahmedabad,Gujarat,2021-08-06,36,Basic,299,Debit Card,2 Year,1
+518,Eshan Kothari,Female,24,0,0,1,Delhi,Delhi,2022-02-20,31,Standard,599,Debit Card,Annual,1
+519,Shobha Bhosle,Female,36,0,1,0,Bangalore,Karnataka,2021-01-26,43,Enterprise,1999,UPI,2 Year,0
+520,Sunita Kumar,Male,43,0,1,1,Hyderabad,Telangana,2019-06-08,62,Enterprise,1999,Credit Card,2 Year,1
+521,Akash Malhotra,Male,42,0,0,1,Indore,Madhya Pradesh,2022-11-16,27,Standard,599,Net Banking,Annual,0
+522,Wasim Shetty,Female,28,0,0,1,Pune,Maharashtra,2021-11-05,36,Premium,999,UPI,Month-to-Month,1
+523,Anjali Reddy,Female,36,0,1,1,Kolkata,West Bengal,2019-12-19,64,Enterprise,1999,Auto Debit,Month-to-Month,0
+524,Lalitha Kaur,Male,43,0,1,0,Mumbai,Maharashtra,2022-02-03,26,Enterprise,1999,Debit Card,6 Months,0
+525,Ganesh Saxena,Male,36,0,1,1,Vishakhapatnam,Andhra Pradesh,2020-02-28,56,Standard,599,Credit Card,Annual,0
+526,Sneha Jain,Female,22,0,0,0,Ahmedabad,Gujarat,2021-04-17,45,Enterprise,1999,Net Banking,Annual,0
+527,Karan Bose,Female,42,0,1,1,Chandigarh,Punjab,2020-06-19,55,Enterprise,1999,Credit Card,Month-to-Month,0
+528,Shobha Ghosh,Female,53,0,1,1,Nagpur,Maharashtra,2024-10-28,6,Basic,299,UPI,Annual,1
+529,Deepali Malhotra,Male,30,0,0,0,Indore,Madhya Pradesh,2024-01-27,1,Basic,299,Credit Card,2 Year,1
+530,Manju Jain,Female,19,0,0,1,Mumbai,Maharashtra,2021-04-25,47,Standard,599,Debit Card,Annual,0
+531,Aarav Singh,Female,20,0,1,1,Chandigarh,Punjab,2023-10-15,18,Enterprise,1999,UPI,6 Months,0
+532,Manju Aggarwal,Female,37,0,1,0,Chennai,Tamil Nadu,2020-01-02,51,Premium,999,UPI,6 Months,0
+533,Uday Kaur,Female,25,0,0,0,Chandigarh,Punjab,2024-12-09,1,Premium,999,Auto Debit,Month-to-Month,1
+534,Sanjay Lal,Male,57,0,0,1,Patna,Bihar,2019-11-14,65,Premium,999,Debit Card,Month-to-Month,0
+535,Lalitha Mishra,Male,28,0,1,0,Coimbatore,Tamil Nadu,2022-08-21,24,Enterprise,1999,Net Banking,2 Year,0
+536,Meena Aggarwal,Female,20,0,0,1,Bhopal,Madhya Pradesh,2024-10-23,8,Premium,999,Credit Card,Month-to-Month,0
+537,Sanjay Banerjee,Female,31,0,0,0,Vishakhapatnam,Andhra Pradesh,2023-11-07,16,Basic,299,Net Banking,6 Months,1
+538,Swati Pillai,Female,41,0,1,1,Jaipur,Rajasthan,2022-09-18,29,Premium,999,UPI,Month-to-Month,0
+539,Sneha Bose,Male,56,0,0,0,Delhi,Delhi,2023-08-07,23,Premium,999,Net Banking,2 Year,0
+540,Eshan Mishra,Female,24,0,0,0,Vadodara,Gujarat,2021-10-09,40,Standard,599,UPI,6 Months,0
+541,Rohit Lal,Female,55,0,1,1,Bangalore,Karnataka,2022-06-11,30,Premium,999,Credit Card,Month-to-Month,0
+542,Vikram Sharma,Male,57,0,0,1,Coimbatore,Tamil Nadu,2024-01-26,8,Enterprise,1999,Auto Debit,6 Months,0
+543,Naresh Patil,Female,60,1,1,0,Bangalore,Karnataka,2021-05-12,38,Standard,599,Credit Card,6 Months,1
+544,Ramesh Desai,Male,50,0,0,1,Pune,Maharashtra,2023-10-05,15,Enterprise,1999,Debit Card,Month-to-Month,1
+545,Sunita Shukla,Female,53,0,0,0,Kochi,Kerala,2024-09-13,5,Standard,599,UPI,Annual,0
+546,Kavita Menon,Male,24,0,0,0,Delhi,Delhi,2019-09-22,70,Premium,999,Debit Card,6 Months,0
+547,Priya Patil,Male,23,0,0,1,Chennai,Tamil Nadu,2022-07-08,33,Basic,299,Credit Card,2 Year,0
+548,Ramesh Joshi,Male,50,0,1,1,Chandigarh,Punjab,2020-03-24,54,Standard,599,Net Banking,6 Months,0
+549,Shobha Banerjee,Male,61,1,0,1,Hyderabad,Telangana,2021-02-20,39,Standard,599,Credit Card,Annual,0
+550,Amit Patel,Male,21,0,0,1,Jaipur,Rajasthan,2020-03-17,49,Standard,599,Auto Debit,Month-to-Month,1
+551,Mohan Patil,Male,65,1,0,1,Chandigarh,Punjab,2023-11-26,13,Basic,299,Credit Card,2 Year,0
+552,Lokesh Desai,Male,49,0,0,0,Mumbai,Maharashtra,2024-07-08,10,Enterprise,1999,Net Banking,Annual,0
+553,Nisha Iyer,Female,24,0,1,0,Nagpur,Maharashtra,2020-08-28,57,Premium,999,Credit Card,6 Months,0
+554,Bhavna Patel,Male,45,0,0,1,Coimbatore,Tamil Nadu,2021-09-24,40,Premium,999,Auto Debit,2 Year,0
+555,Meena Sharma,Female,52,0,0,1,Hyderabad,Telangana,2023-03-22,13,Premium,999,UPI,Annual,0
+556,Meena Verma,Male,38,0,1,0,Lucknow,Uttar Pradesh,2023-01-21,12,Basic,299,Auto Debit,6 Months,1
+557,Meena Aggarwal,Male,56,0,1,1,Vadodara,Gujarat,2022-12-17,30,Standard,599,UPI,6 Months,0
+558,Girish Sharma,Male,54,0,0,1,Ahmedabad,Gujarat,2020-08-13,55,Enterprise,1999,UPI,Annual,0
+559,Divya Singh,Female,51,0,1,1,Kolkata,West Bengal,2022-07-14,34,Enterprise,1999,Credit Card,Annual,0
+560,Irfan Saxena,Male,53,0,1,1,Pune,Maharashtra,2020-05-02,56,Basic,299,Net Banking,6 Months,0
+561,Manju Nair,Male,46,0,0,0,Chennai,Tamil Nadu,2019-05-21,71,Enterprise,1999,Auto Debit,Annual,0
+562,Swati Kaur,Female,23,0,0,1,Bhopal,Madhya Pradesh,2019-05-28,62,Basic,299,Net Banking,6 Months,0
+563,Wasim Patil,Female,46,0,1,1,Kolkata,West Bengal,2020-07-18,59,Premium,999,Credit Card,6 Months,0
+564,Sunita Bhatt,Female,30,0,0,0,Pune,Maharashtra,2023-08-01,17,Enterprise,1999,Net Banking,Month-to-Month,0
+565,Eshan Sharma,Female,64,1,0,0,Jaipur,Rajasthan,2019-12-05,60,Enterprise,1999,Net Banking,2 Year,0
+566,Meena Bajaj,Female,46,0,1,1,Lucknow,Uttar Pradesh,2022-03-09,32,Standard,599,Auto Debit,Month-to-Month,0
+567,Rekha Bose,Female,50,0,1,0,Bangalore,Karnataka,2022-07-25,25,Basic,299,Debit Card,Annual,0
+568,Tarun Ansari,Male,53,0,1,1,Bangalore,Karnataka,2024-05-05,6,Basic,299,Debit Card,Month-to-Month,0
+569,Kamla Pillai,Female,37,0,0,1,Nagpur,Maharashtra,2023-06-05,16,Standard,599,Auto Debit,Month-to-Month,1
+570,Bhavna Ansari,Male,27,0,0,0,Indore,Madhya Pradesh,2024-06-19,4,Standard,599,UPI,2 Year,1
+571,Priya Mishra,Female,34,0,1,1,Pune,Maharashtra,2024-07-23,2,Enterprise,1999,UPI,Annual,0
+572,Rekha Menon,Male,44,0,0,0,Delhi,Delhi,2023-09-13,17,Standard,599,Auto Debit,Month-to-Month,1
+573,Arjun Shukla,Female,55,0,0,0,Ahmedabad,Gujarat,2021-12-08,46,Basic,299,Net Banking,2 Year,1
+574,Priya Tripathi,Female,38,0,1,1,Jaipur,Rajasthan,2019-06-05,71,Standard,599,Net Banking,Annual,1
+575,Manju Shetty,Male,25,0,0,0,Lucknow,Uttar Pradesh,2020-10-07,52,Enterprise,1999,Auto Debit,2 Year,0
+576,Aarav Desai,Male,37,0,0,1,Kolkata,West Bengal,2019-06-26,71,Basic,299,Credit Card,Annual,0
+577,Vandana Kumar,Male,56,0,0,1,Hyderabad,Telangana,2023-03-03,20,Premium,999,Net Banking,2 Year,0
+578,Karan Pillai,Male,28,0,1,0,Vishakhapatnam,Andhra Pradesh,2021-09-25,44,Standard,599,Credit Card,2 Year,0
+579,Wasim Jain,Male,21,0,0,1,Vishakhapatnam,Andhra Pradesh,2019-06-19,63,Enterprise,1999,Debit Card,Annual,0
+580,Rekha Iyer,Female,33,0,0,1,Chennai,Tamil Nadu,2023-12-20,19,Premium,999,UPI,Annual,0
+581,Deepak Joshi,Female,40,0,1,1,Vadodara,Gujarat,2021-12-25,41,Premium,999,Credit Card,6 Months,0
+582,Pallavi Gupta,Female,26,0,0,0,Patna,Bihar,2023-02-25,18,Standard,599,UPI,Month-to-Month,1
+583,Rajiv Singh,Male,29,0,1,1,Chandigarh,Punjab,2021-03-17,44,Standard,599,Net Banking,6 Months,0
+584,Swati Iyer,Male,36,0,1,0,Jaipur,Rajasthan,2024-07-15,10,Basic,299,Auto Debit,Month-to-Month,1
+585,Rekha Menon,Male,30,0,1,1,Mumbai,Maharashtra,2024-12-19,1,Enterprise,1999,Net Banking,Annual,1
+586,Deepali Bhatt,Male,34,0,0,1,Indore,Madhya Pradesh,2020-06-23,55,Enterprise,1999,UPI,Month-to-Month,0
+587,Geeta Rao,Male,56,0,0,1,Bangalore,Karnataka,2022-03-06,32,Enterprise,1999,Debit Card,Annual,1
+588,Naresh Kothari,Female,54,0,0,1,Kochi,Kerala,2024-02-28,2,Standard,599,UPI,2 Year,0
+589,Divya Ghosh,Female,20,0,1,1,Ahmedabad,Gujarat,2022-08-09,30,Standard,599,Debit Card,Annual,0
+590,Sneha Ghosh,Female,48,0,1,1,Coimbatore,Tamil Nadu,2020-06-15,51,Premium,999,Net Banking,Annual,1
+591,Girish Patel,Male,46,0,1,0,Vishakhapatnam,Andhra Pradesh,2020-10-19,57,Enterprise,1999,Net Banking,Annual,0
+592,Sanjay Rao,Female,27,0,1,0,Delhi,Delhi,2022-12-01,28,Standard,599,UPI,Annual,0
+593,Geeta Singh,Male,53,0,0,0,Kochi,Kerala,2020-04-24,55,Enterprise,1999,Auto Debit,2 Year,0
+594,Vikram Pillai,Female,41,0,1,1,Coimbatore,Tamil Nadu,2020-05-04,53,Standard,599,Auto Debit,Month-to-Month,0
+595,Arjun Nanda,Female,59,0,1,1,Nagpur,Maharashtra,2024-05-06,3,Basic,299,UPI,6 Months,0
+596,Pallavi Lal,Male,60,1,1,0,Kochi,Kerala,2023-01-04,17,Basic,299,Auto Debit,6 Months,0
+597,Meena Mishra,Male,53,0,0,1,Lucknow,Uttar Pradesh,2019-06-20,60,Standard,599,Auto Debit,2 Year,1
+598,Deepak Sharma,Male,22,0,1,1,Vishakhapatnam,Andhra Pradesh,2020-05-06,54,Premium,999,Net Banking,6 Months,0
+599,Geeta Banerjee,Male,18,0,0,0,Coimbatore,Tamil Nadu,2024-06-20,2,Basic,299,Auto Debit,Annual,0
+600,Meena Nanda,Female,22,0,1,0,Bhopal,Madhya Pradesh,2021-06-09,40,Premium,999,Debit Card,2 Year,0
+601,Anjali Pandey,Male,37,0,1,1,Bhopal,Madhya Pradesh,2023-11-19,13,Standard,599,Debit Card,Annual,0
+602,Priya Patil,Female,64,1,0,1,Ahmedabad,Gujarat,2021-06-12,40,Premium,999,Credit Card,2 Year,0
+603,Suresh Lal,Female,60,1,1,0,Vadodara,Gujarat,2020-04-22,50,Premium,999,Net Banking,2 Year,0
+604,Naresh Ghosh,Female,64,1,1,0,Vadodara,Gujarat,2021-11-02,46,Basic,299,Auto Debit,Annual,0
+605,Mohan Nanda,Female,34,0,1,1,Bangalore,Karnataka,2020-08-12,50,Enterprise,1999,UPI,Month-to-Month,1
+606,Karan Kothari,Male,44,0,0,0,Pune,Maharashtra,2023-03-09,14,Premium,999,UPI,2 Year,0
+607,Vikram Pillai,Female,32,0,1,1,Vishakhapatnam,Andhra Pradesh,2024-05-14,3,Enterprise,1999,UPI,Month-to-Month,0
+608,Geeta Kumar,Male,43,0,0,0,Bhopal,Madhya Pradesh,2020-08-17,56,Basic,299,Auto Debit,Month-to-Month,0
+609,Amit Pillai,Female,20,0,0,1,Surat,Gujarat,2022-11-19,29,Basic,299,Credit Card,Month-to-Month,0
+610,Divya Jain,Female,30,0,1,0,Bangalore,Karnataka,2024-02-23,9,Basic,299,Credit Card,Month-to-Month,0
+611,Sneha Nanda,Male,19,0,1,1,Jaipur,Rajasthan,2022-10-08,29,Standard,599,Net Banking,Annual,0
+612,Mohan Mehta,Male,38,0,1,0,Pune,Maharashtra,2022-05-15,29,Enterprise,1999,Credit Card,2 Year,0
+613,Kavita Singh,Female,23,0,1,1,Pune,Maharashtra,2022-08-09,35,Premium,999,UPI,Month-to-Month,1
+614,Sanjay Joshi,Female,56,0,0,1,Kochi,Kerala,2020-09-21,50,Enterprise,1999,Credit Card,2 Year,1
+615,Deepali Gupta,Male,19,0,0,0,Nagpur,Maharashtra,2023-11-25,23,Enterprise,1999,Credit Card,Month-to-Month,0
+616,Ganesh Nanda,Male,58,0,0,0,Ahmedabad,Gujarat,2020-02-25,53,Premium,999,UPI,2 Year,0
+617,Sunita Reddy,Female,54,0,0,0,Ahmedabad,Gujarat,2024-08-04,9,Standard,599,Debit Card,Annual,1
+618,Geeta Iyer,Male,56,0,1,0,Surat,Gujarat,2024-06-19,8,Enterprise,1999,Debit Card,2 Year,1
+619,Usha Reddy,Female,43,0,0,1,Surat,Gujarat,2019-12-28,60,Enterprise,1999,Credit Card,Month-to-Month,1
+620,Amit Kaur,Female,53,0,1,0,Mumbai,Maharashtra,2021-11-23,38,Standard,599,Auto Debit,2 Year,0
+621,Rohit Reddy,Female,32,0,1,0,Chandigarh,Punjab,2024-06-26,1,Standard,599,UPI,6 Months,1
+622,Pallavi Banerjee,Male,27,0,0,1,Lucknow,Uttar Pradesh,2020-02-12,53,Standard,599,Auto Debit,Month-to-Month,1
+623,Akash Bose,Female,24,0,1,1,Delhi,Delhi,2023-03-15,12,Basic,299,UPI,6 Months,0
+624,Hema Bhatt,Female,60,1,1,1,Lucknow,Uttar Pradesh,2021-06-15,47,Standard,599,Credit Card,Annual,0
+625,Jagdish Ansari,Male,58,0,1,1,Vishakhapatnam,Andhra Pradesh,2019-04-07,62,Standard,599,Net Banking,Month-to-Month,0
+626,Wasim Tiwari,Female,26,0,1,1,Bhopal,Madhya Pradesh,2020-10-04,50,Premium,999,UPI,6 Months,0
+627,Hema Desai,Female,46,0,0,0,Delhi,Delhi,2023-11-01,13,Enterprise,1999,Net Banking,2 Year,0
+628,Shobha Rao,Male,62,1,0,1,Nagpur,Maharashtra,2021-04-05,43,Basic,299,UPI,2 Year,0
+629,Chirag Reddy,Male,61,1,1,1,Kochi,Kerala,2024-03-06,2,Enterprise,1999,UPI,Month-to-Month,0
+630,Mohan Kulkarni,Male,64,1,0,0,Coimbatore,Tamil Nadu,2024-07-19,8,Premium,999,Net Banking,Month-to-Month,1
+631,Pooja Menon,Female,64,1,0,0,Pune,Maharashtra,2024-11-20,10,Standard,599,Debit Card,6 Months,1
+632,Divya Tiwari,Female,54,0,1,1,Bhopal,Madhya Pradesh,2019-09-19,71,Basic,299,UPI,Annual,0
+633,Tarun Pillai,Male,43,0,0,1,Chennai,Tamil Nadu,2019-12-21,67,Basic,299,Auto Debit,6 Months,0
+634,Sunita Bose,Female,23,0,1,0,Jaipur,Rajasthan,2020-01-23,52,Basic,299,Credit Card,Month-to-Month,1
+635,Sneha Mehta,Male,53,0,1,0,Kochi,Kerala,2021-06-22,47,Basic,299,Debit Card,Month-to-Month,1
+636,Eshan Saxena,Male,21,0,0,1,Pune,Maharashtra,2021-08-10,37,Basic,299,Net Banking,Annual,1
+637,Naresh Tripathi,Male,36,0,1,1,Pune,Maharashtra,2024-10-20,6,Premium,999,Net Banking,Annual,0
+638,Deepali Jain,Female,18,0,1,0,Vadodara,Gujarat,2024-10-16,6,Standard,599,Debit Card,2 Year,0
+639,Girish Bhatt,Female,35,0,0,0,Lucknow,Uttar Pradesh,2021-01-04,43,Premium,999,Net Banking,Annual,0
+640,Amit Bose,Male,53,0,0,1,Bhopal,Madhya Pradesh,2020-11-14,52,Standard,599,Debit Card,6 Months,0
+641,Tarun Sharma,Male,52,0,1,1,Kochi,Kerala,2022-06-23,24,Enterprise,1999,Auto Debit,Month-to-Month,0
+642,Rohit Bhatt,Male,20,0,1,0,Chennai,Tamil Nadu,2022-04-24,32,Basic,299,Debit Card,6 Months,1
+643,Anjali Kulkarni,Female,46,0,1,0,Chennai,Tamil Nadu,2019-09-12,64,Basic,299,Credit Card,Annual,0
+644,Uday Bhosle,Female,41,0,0,1,Bangalore,Karnataka,2020-07-20,54,Premium,999,Net Banking,2 Year,1
+645,Pallavi Banerjee,Male,58,0,0,0,Mumbai,Maharashtra,2018-04-28,72,Premium,999,Debit Card,Month-to-Month,0
+646,Rajiv Bose,Female,45,0,1,1,Vishakhapatnam,Andhra Pradesh,2020-10-11,48,Enterprise,1999,Auto Debit,Annual,0
+647,Nisha Gupta,Male,20,0,1,0,Kolkata,West Bengal,2023-09-24,18,Enterprise,1999,Net Banking,Annual,0
+648,Mohan Sharma,Female,53,0,0,1,Bangalore,Karnataka,2023-08-03,12,Basic,299,Debit Card,Annual,1
+649,Vandana Mehta,Female,55,0,0,1,Coimbatore,Tamil Nadu,2024-09-24,5,Standard,599,Credit Card,6 Months,0
+650,Rekha Tiwari,Female,33,0,1,0,Mumbai,Maharashtra,2022-02-09,35,Premium,999,Auto Debit,Annual,0
+651,Ganesh Lal,Female,63,1,0,0,Ahmedabad,Gujarat,2023-02-24,18,Standard,599,Debit Card,2 Year,0
+652,Uday Bhatt,Male,40,0,1,0,Jaipur,Rajasthan,2021-05-17,41,Basic,299,Debit Card,Month-to-Month,0
+653,Shobha Bhatt,Female,28,0,0,1,Surat,Gujarat,2020-09-10,57,Enterprise,1999,Net Banking,Month-to-Month,1
+654,Anjali Tripathi,Female,33,0,1,0,Chandigarh,Punjab,2020-01-07,49,Premium,999,Debit Card,2 Year,0
+655,Eshan Gupta,Male,38,0,1,0,Coimbatore,Tamil Nadu,2020-07-22,58,Basic,299,Auto Debit,6 Months,0
+656,Rekha Jain,Male,47,0,0,1,Lucknow,Uttar Pradesh,2021-07-23,37,Premium,999,Auto Debit,6 Months,0
+657,Deepak Mishra,Male,38,0,0,1,Ahmedabad,Gujarat,2021-11-18,45,Standard,599,Auto Debit,6 Months,0
+658,Jagdish Sharma,Female,64,1,0,1,Kochi,Kerala,2023-05-09,16,Basic,299,Net Banking,Month-to-Month,1
+659,Karan Tiwari,Female,59,0,0,1,Bangalore,Karnataka,2018-10-19,72,Basic,299,Auto Debit,6 Months,1
+660,Deepak Jain,Female,43,0,1,1,Nagpur,Maharashtra,2021-11-09,41,Enterprise,1999,Debit Card,2 Year,1
+661,Girish Ansari,Male,19,0,1,0,Coimbatore,Tamil Nadu,2024-03-16,8,Premium,999,Debit Card,2 Year,0
+662,Kamla Kaur,Female,35,0,0,0,Mumbai,Maharashtra,2022-06-13,26,Standard,599,Debit Card,6 Months,0
+663,Bhavna Tiwari,Female,36,0,1,0,Bhopal,Madhya Pradesh,2024-09-17,4,Premium,999,Debit Card,6 Months,0
+664,Usha Shetty,Female,43,0,1,1,Chandigarh,Punjab,2024-08-03,5,Enterprise,1999,Net Banking,6 Months,0
+665,Vandana Patil,Male,65,1,1,0,Nagpur,Maharashtra,2021-08-02,37,Enterprise,1999,UPI,2 Year,0
+666,Wasim Joshi,Female,56,0,1,0,Delhi,Delhi,2024-04-28,2,Premium,999,Auto Debit,2 Year,0
+667,Rahul Bajaj,Male,62,1,1,0,Kolkata,West Bengal,2022-11-11,30,Enterprise,1999,Auto Debit,Month-to-Month,0
+668,Manoj Pillai,Male,40,0,0,0,Ahmedabad,Gujarat,2022-02-22,33,Enterprise,1999,Auto Debit,Annual,0
+669,Lokesh Rao,Male,61,1,0,0,Coimbatore,Tamil Nadu,2020-05-04,52,Premium,999,UPI,2 Year,0
+670,Akash Ansari,Male,25,0,1,1,Coimbatore,Tamil Nadu,2022-10-04,25,Enterprise,1999,UPI,Month-to-Month,0
+671,Wasim Pandey,Male,26,0,0,0,Kolkata,West Bengal,2024-10-28,10,Standard,599,UPI,Annual,0
+672,Wasim Malhotra,Female,55,0,0,0,Kochi,Kerala,2023-11-11,18,Basic,299,Net Banking,6 Months,0
+673,Lalitha Sharma,Female,61,1,1,1,Coimbatore,Tamil Nadu,2021-07-14,43,Basic,299,Net Banking,6 Months,0
+674,Karan Tripathi,Female,49,0,1,1,Lucknow,Uttar Pradesh,2023-10-01,18,Enterprise,1999,Credit Card,2 Year,1
+675,Nisha Bhatt,Female,20,0,1,0,Indore,Madhya Pradesh,2024-03-04,1,Premium,999,Auto Debit,Annual,0
+676,Wasim Bhosle,Male,62,1,0,1,Chennai,Tamil Nadu,2021-04-03,39,Basic,299,Debit Card,Month-to-Month,1
+677,Meena Chandra,Male,26,0,0,1,Pune,Maharashtra,2021-09-01,42,Standard,599,UPI,Month-to-Month,1
+678,Girish Chandra,Male,34,0,0,1,Bangalore,Karnataka,2022-05-10,34,Standard,599,Credit Card,Month-to-Month,0
+679,Girish Malhotra,Male,21,0,1,1,Indore,Madhya Pradesh,2023-08-14,17,Basic,299,UPI,6 Months,0
+680,Rajiv Banerjee,Male,43,0,0,0,Surat,Gujarat,2024-02-28,2,Basic,299,Net Banking,2 Year,0
+681,Manoj Mehta,Male,30,0,1,0,Pune,Maharashtra,2022-09-22,33,Premium,999,Debit Card,Annual,0
+682,Swati Shukla,Female,22,0,1,0,Bhopal,Madhya Pradesh,2022-04-25,27,Premium,999,Credit Card,2 Year,0
+683,Meena Lal,Female,23,0,1,1,Coimbatore,Tamil Nadu,2021-08-22,44,Enterprise,1999,Debit Card,Month-to-Month,1
+684,Karan Nanda,Female,31,0,1,1,Kochi,Kerala,2022-02-02,24,Enterprise,1999,Credit Card,2 Year,0
+685,Kamla Nair,Male,40,0,1,0,Surat,Gujarat,2022-05-01,31,Premium,999,Net Banking,Annual,0
+686,Shobha Desai,Female,35,0,0,0,Delhi,Delhi,2023-01-11,12,Premium,999,Credit Card,2 Year,1
+687,Irfan Ansari,Male,22,0,1,1,Lucknow,Uttar Pradesh,2024-08-26,7,Basic,299,Credit Card,6 Months,0
+688,Jagdish Tripathi,Male,48,0,1,0,Chandigarh,Punjab,2021-03-20,43,Enterprise,1999,Net Banking,Month-to-Month,1
+689,Rekha Bhosle,Female,46,0,0,0,Lucknow,Uttar Pradesh,2019-09-27,68,Premium,999,Auto Debit,6 Months,0
+690,Chirag Bose,Male,18,0,0,1,Bhopal,Madhya Pradesh,2021-04-27,44,Standard,599,Net Banking,Month-to-Month,0
+691,Pooja Reddy,Female,40,0,0,0,Vishakhapatnam,Andhra Pradesh,2022-03-07,28,Basic,299,Auto Debit,Annual,1
+692,Wasim Patil,Male,50,0,1,1,Hyderabad,Telangana,2021-06-11,44,Standard,599,UPI,Annual,0
+693,Geeta Malhotra,Female,22,0,1,1,Chandigarh,Punjab,2024-08-25,8,Standard,599,Debit Card,2 Year,0
+694,Mohan Bajaj,Male,27,0,1,0,Hyderabad,Telangana,2021-08-14,43,Premium,999,Auto Debit,6 Months,0
+695,Uday Desai,Female,41,0,1,0,Kolkata,West Bengal,2019-12-19,62,Enterprise,1999,Net Banking,Month-to-Month,1
+696,Wasim Patel,Female,18,0,0,0,Pune,Maharashtra,2022-05-15,31,Enterprise,1999,Auto Debit,6 Months,0
+697,Ganesh Shukla,Female,46,0,1,1,Kochi,Kerala,2021-11-03,39,Premium,999,Auto Debit,6 Months,0
+698,Pooja Bhosle,Male,26,0,1,1,Pune,Maharashtra,2023-03-02,19,Standard,599,Debit Card,Annual,0
+699,Mohan Pandey,Female,47,0,1,1,Pune,Maharashtra,2024-04-09,5,Premium,999,Net Banking,Month-to-Month,0
+700,Mohan Desai,Male,49,0,0,0,Pune,Maharashtra,2024-07-02,7,Premium,999,Debit Card,6 Months,0
+701,Suresh Malhotra,Male,20,0,1,0,Kolkata,West Bengal,2021-01-14,40,Basic,299,Net Banking,2 Year,1
+702,Uday Bajaj,Male,45,0,0,0,Delhi,Delhi,2024-12-17,1,Premium,999,Net Banking,Month-to-Month,1
+703,Chirag Bhatt,Female,54,0,0,0,Hyderabad,Telangana,2024-12-10,4,Standard,599,Credit Card,Annual,0
+704,Rekha Ansari,Female,23,0,1,1,Kochi,Kerala,2020-06-02,58,Premium,999,Net Banking,Month-to-Month,0
+705,Irfan Chandra,Female,27,0,0,1,Surat,Gujarat,2021-06-01,43,Standard,599,UPI,2 Year,0
+706,Vandana Sharma,Female,22,0,0,1,Vadodara,Gujarat,2019-11-06,60,Basic,299,Credit Card,6 Months,0
+707,Anil Joshi,Female,41,0,1,0,Kolkata,West Bengal,2020-01-02,52,Standard,599,Auto Debit,2 Year,0
+708,Akash Kothari,Male,48,0,0,0,Coimbatore,Tamil Nadu,2023-01-23,16,Standard,599,UPI,6 Months,0
+709,Geeta Mishra,Female,62,1,1,1,Bhopal,Madhya Pradesh,2023-09-04,22,Basic,299,Debit Card,Annual,1
+710,Naresh Patel,Male,42,0,0,1,Kolkata,West Bengal,2020-04-19,48,Enterprise,1999,UPI,2 Year,1
+711,Rohit Kulkarni,Male,47,0,1,1,Lucknow,Uttar Pradesh,2020-07-06,48,Enterprise,1999,Credit Card,Month-to-Month,1
+712,Karan Tripathi,Male,39,0,0,0,Kolkata,West Bengal,2023-03-10,18,Basic,299,UPI,Month-to-Month,0
+713,Pooja Kaur,Male,24,0,0,1,Vishakhapatnam,Andhra Pradesh,2020-12-26,48,Enterprise,1999,Auto Debit,6 Months,0
+714,Usha Malhotra,Female,51,0,0,0,Chandigarh,Punjab,2020-03-26,51,Enterprise,1999,UPI,Annual,0
+715,Anjali Bhosle,Female,63,1,1,0,Jaipur,Rajasthan,2024-08-27,2,Standard,599,Debit Card,Annual,1
+716,Anjali Chandra,Female,19,0,0,0,Delhi,Delhi,2022-03-10,31,Standard,599,Credit Card,Annual,0
+717,Uday Shetty,Female,19,0,0,1,Chandigarh,Punjab,2019-11-08,62,Basic,299,UPI,6 Months,1
+718,Swati Kothari,Female,39,0,1,0,Nagpur,Maharashtra,2023-05-04,13,Standard,599,Debit Card,Month-to-Month,0
+719,Sarita Ansari,Male,40,0,0,0,Ahmedabad,Gujarat,2021-08-24,40,Enterprise,1999,UPI,6 Months,0
+720,Mohan Pillai,Female,41,0,0,0,Vadodara,Gujarat,2023-02-23,12,Basic,299,Credit Card,6 Months,0
+721,Meena Verma,Female,20,0,0,1,Hyderabad,Telangana,2020-01-03,53,Premium,999,Credit Card,Month-to-Month,1
+722,Girish Nanda,Male,26,0,1,0,Bangalore,Karnataka,2022-05-17,28,Basic,299,Auto Debit,6 Months,0
+723,Ramesh Nair,Female,38,0,1,1,Coimbatore,Tamil Nadu,2022-01-05,33,Basic,299,Net Banking,6 Months,0
+724,Lokesh Patel,Male,47,0,1,1,Delhi,Delhi,2023-02-26,18,Basic,299,UPI,Month-to-Month,1
+725,Shobha Sharma,Male,33,0,1,1,Ahmedabad,Gujarat,2023-01-15,21,Premium,999,Net Banking,Month-to-Month,1
+726,Sneha Singh,Female,35,0,0,1,Ahmedabad,Gujarat,2022-11-16,31,Enterprise,1999,UPI,6 Months,0
+727,Geeta Iyer,Male,46,0,1,0,Kolkata,West Bengal,2021-05-28,41,Standard,599,Net Banking,6 Months,0
+728,Wasim Rao,Female,37,0,1,0,Delhi,Delhi,2020-10-18,55,Premium,999,Credit Card,Month-to-Month,0
+729,Sanjay Lal,Female,20,0,0,1,Bhopal,Madhya Pradesh,2023-01-15,12,Enterprise,1999,Credit Card,6 Months,0
+730,Jagdish Saxena,Male,37,0,0,1,Nagpur,Maharashtra,2021-12-04,46,Premium,999,Net Banking,Month-to-Month,0
+731,Divya Tiwari,Male,42,0,1,0,Vadodara,Gujarat,2022-12-28,30,Basic,299,Credit Card,Month-to-Month,0
+732,Ramesh Aggarwal,Male,56,0,0,0,Kolkata,West Bengal,2020-03-13,54,Standard,599,Credit Card,Annual,1
+733,Divya Pillai,Female,39,0,0,0,Chandigarh,Punjab,2024-09-23,7,Standard,599,Net Banking,Annual,1
+734,Shobha Bhatt,Female,28,0,0,1,Mumbai,Maharashtra,2021-08-21,36,Basic,299,Debit Card,Month-to-Month,1
+735,Ramesh Saxena,Female,46,0,1,1,Delhi,Delhi,2018-10-03,72,Enterprise,1999,Auto Debit,Annual,0
+736,Wasim Mishra,Female,62,1,1,0,Bhopal,Madhya Pradesh,2023-08-04,18,Basic,299,Debit Card,6 Months,1
+737,Wasim Malhotra,Female,45,0,1,0,Nagpur,Maharashtra,2019-01-14,69,Premium,999,Auto Debit,2 Year,1
+738,Swati Malhotra,Female,45,0,1,0,Bhopal,Madhya Pradesh,2023-03-16,16,Standard,599,UPI,2 Year,0
+739,Hema Sharma,Male,63,1,1,1,Lucknow,Uttar Pradesh,2022-06-27,35,Premium,999,UPI,2 Year,0
+740,Vandana Bhosle,Female,49,0,0,1,Chandigarh,Punjab,2019-05-24,68,Standard,599,Auto Debit,2 Year,0
+741,Hema Kulkarni,Male,33,0,0,1,Coimbatore,Tamil Nadu,2022-07-12,31,Basic,299,Credit Card,Month-to-Month,1
+742,Sunita Desai,Female,63,1,1,0,Vadodara,Gujarat,2021-11-13,46,Enterprise,1999,UPI,Month-to-Month,0
+743,Chirag Jain,Male,64,1,1,0,Surat,Gujarat,2020-01-04,49,Standard,599,UPI,Annual,0
+744,Arjun Saxena,Female,18,0,0,1,Jaipur,Rajasthan,2021-02-22,39,Standard,599,Credit Card,Month-to-Month,0
+745,Manju Ansari,Female,56,0,0,0,Chennai,Tamil Nadu,2022-01-21,35,Standard,599,Net Banking,Month-to-Month,1
+746,Akash Nair,Female,18,0,1,0,Delhi,Delhi,2021-05-10,36,Premium,999,Debit Card,2 Year,0
+747,Lokesh Bose,Male,20,0,0,1,Kolkata,West Bengal,2024-11-05,2,Basic,299,Auto Debit,Month-to-Month,1
+748,Jagdish Bajaj,Female,54,0,1,1,Indore,Madhya Pradesh,2020-01-02,50,Premium,999,Auto Debit,Annual,0
+749,Usha Pillai,Male,21,0,0,1,Kolkata,West Bengal,2022-03-19,24,Enterprise,1999,Credit Card,Month-to-Month,0
+750,Shobha Singh,Female,46,0,1,1,Delhi,Delhi,2019-07-20,65,Standard,599,UPI,Annual,0
+751,Sunita Pillai,Male,52,0,1,0,Bhopal,Madhya Pradesh,2023-11-22,22,Enterprise,1999,Credit Card,Annual,0
+752,Sarita Shetty,Male,63,1,1,1,Vishakhapatnam,Andhra Pradesh,2021-09-18,42,Enterprise,1999,Credit Card,6 Months,0
+753,Naresh Bose,Male,19,0,1,0,Pune,Maharashtra,2024-02-07,1,Standard,599,Debit Card,Month-to-Month,1
+754,Chirag Nair,Female,42,0,1,0,Patna,Bihar,2021-04-26,44,Standard,599,Debit Card,Annual,0
+755,Rekha Tiwari,Male,42,0,0,1,Hyderabad,Telangana,2024-09-08,2,Basic,299,UPI,6 Months,1
+756,Manju Singh,Male,28,0,1,0,Pune,Maharashtra,2024-05-22,6,Premium,999,Credit Card,2 Year,1
+757,Pallavi Tiwari,Male,28,0,0,0,Patna,Bihar,2020-12-18,59,Enterprise,1999,Debit Card,6 Months,0
+758,Rahul Gupta,Male,65,1,0,0,Patna,Bihar,2024-02-04,4,Premium,999,UPI,Month-to-Month,0
+759,Aarav Saxena,Male,32,0,1,1,Surat,Gujarat,2021-06-28,40,Enterprise,1999,Auto Debit,6 Months,0
+760,Deepak Bhosle,Female,35,0,1,1,Lucknow,Uttar Pradesh,2023-03-23,18,Enterprise,1999,Debit Card,6 Months,0
+761,Rekha Jain,Female,27,0,1,1,Lucknow,Uttar Pradesh,2024-05-19,11,Basic,299,Credit Card,2 Year,1
+762,Swati Ansari,Female,41,0,1,0,Hyderabad,Telangana,2022-06-21,31,Basic,299,Credit Card,2 Year,1
+763,Manju Jain,Male,23,0,0,1,Patna,Bihar,2021-03-24,45,Basic,299,Credit Card,Month-to-Month,0
+764,Lalitha Sharma,Female,32,0,0,1,Kochi,Kerala,2019-03-17,63,Standard,599,Debit Card,2 Year,0
+765,Rekha Lal,Male,64,1,1,0,Jaipur,Rajasthan,2019-04-11,69,Basic,299,UPI,Month-to-Month,0
+766,Naresh Patil,Male,58,0,0,1,Vishakhapatnam,Andhra Pradesh,2022-05-21,30,Premium,999,Net Banking,Annual,0
+767,Vandana Shetty,Male,28,0,0,0,Nagpur,Maharashtra,2022-04-22,27,Enterprise,1999,Net Banking,Annual,0
+768,Kavita Gupta,Female,40,0,0,1,Chandigarh,Punjab,2023-02-03,19,Basic,299,Net Banking,6 Months,0
+769,Divya Aggarwal,Male,33,0,0,0,Lucknow,Uttar Pradesh,2020-04-16,54,Enterprise,1999,Credit Card,6 Months,0
+770,Hema Rao,Female,59,0,1,1,Kolkata,West Bengal,2024-12-26,11,Standard,599,UPI,Month-to-Month,1
+771,Girish Tiwari,Female,28,0,0,1,Surat,Gujarat,2024-02-06,5,Standard,599,Debit Card,Annual,0
+772,Rohit Pandey,Female,49,0,0,0,Bhopal,Madhya Pradesh,2023-11-03,19,Premium,999,Credit Card,6 Months,0
+773,Ganesh Banerjee,Female,44,0,1,0,Bangalore,Karnataka,2020-05-14,54,Premium,999,Credit Card,6 Months,0
+774,Kamla Kulkarni,Male,54,0,0,1,Bangalore,Karnataka,2020-05-23,55,Standard,599,Credit Card,Annual,0
+775,Sanjay Sharma,Female,30,0,1,1,Bhopal,Madhya Pradesh,2021-06-13,45,Enterprise,1999,Net Banking,6 Months,0
+776,Sunita Bhosle,Female,61,1,0,0,Mumbai,Maharashtra,2020-04-21,55,Premium,999,Auto Debit,2 Year,0
+777,Manoj Bajaj,Female,31,0,0,1,Surat,Gujarat,2021-03-28,45,Standard,599,Credit Card,6 Months,0
+778,Kavita Kothari,Male,46,0,0,1,Patna,Bihar,2019-07-28,64,Enterprise,1999,UPI,Month-to-Month,0
+779,Akash Patil,Female,65,1,1,0,Indore,Madhya Pradesh,2020-01-04,57,Standard,599,Debit Card,6 Months,0
+780,Manju Saxena,Male,32,0,0,1,Chandigarh,Punjab,2020-10-21,49,Premium,999,Net Banking,2 Year,0
+781,Naresh Shetty,Male,25,0,0,0,Vadodara,Gujarat,2024-07-27,8,Standard,599,UPI,6 Months,0
+782,Pallavi Kumar,Male,32,0,1,1,Chandigarh,Punjab,2023-11-18,19,Basic,299,Debit Card,Month-to-Month,0
+783,Jagdish Aggarwal,Male,38,0,0,1,Coimbatore,Tamil Nadu,2024-09-15,10,Standard,599,UPI,Month-to-Month,1
+784,Geeta Kaur,Male,43,0,0,0,Patna,Bihar,2020-01-05,58,Enterprise,1999,Credit Card,6 Months,0
+785,Jagdish Pillai,Male,61,1,1,0,Lucknow,Uttar Pradesh,2019-09-12,67,Standard,599,UPI,6 Months,0
+786,Suresh Gupta,Female,49,0,1,1,Pune,Maharashtra,2021-04-23,41,Enterprise,1999,Credit Card,6 Months,0
+787,Pooja Aggarwal,Female,28,0,1,1,Indore,Madhya Pradesh,2019-12-26,66,Enterprise,1999,Auto Debit,2 Year,0
+788,Sneha Pandey,Female,43,0,0,1,Surat,Gujarat,2022-04-11,29,Basic,299,Debit Card,6 Months,0
+789,Tarun Kaur,Male,51,0,1,0,Pune,Maharashtra,2021-07-07,38,Enterprise,1999,Net Banking,6 Months,0
+790,Mohan Rao,Female,45,0,1,1,Indore,Madhya Pradesh,2023-02-10,23,Standard,599,Auto Debit,Annual,0
+791,Arjun Pillai,Female,22,0,1,1,Jaipur,Rajasthan,2024-04-28,4,Enterprise,1999,Net Banking,2 Year,0
+792,Rahul Kumar,Male,54,0,0,0,Pune,Maharashtra,2019-09-22,71,Standard,599,UPI,6 Months,0
+793,Sunita Tiwari,Male,20,0,0,0,Surat,Gujarat,2023-09-10,22,Enterprise,1999,UPI,2 Year,0
+794,Sneha Gupta,Female,34,0,0,0,Kochi,Kerala,2021-02-16,37,Premium,999,Net Banking,6 Months,0
+795,Usha Aggarwal,Female,31,0,1,0,Vishakhapatnam,Andhra Pradesh,2019-04-19,65,Standard,599,UPI,6 Months,0
+796,Kavita Tiwari,Female,50,0,1,0,Vishakhapatnam,Andhra Pradesh,2022-03-24,30,Standard,599,Credit Card,6 Months,0
+797,Vandana Ghosh,Female,32,0,1,0,Patna,Bihar,2020-08-07,50,Basic,299,Credit Card,6 Months,0
+798,Rohit Saxena,Female,39,0,0,1,Vadodara,Gujarat,2020-08-23,57,Enterprise,1999,Net Banking,Month-to-Month,1
+799,Lalitha Bajaj,Female,49,0,1,0,Mumbai,Maharashtra,2023-12-10,16,Enterprise,1999,Auto Debit,Annual,1
+800,Eshan Ghosh,Female,21,0,1,0,Bangalore,Karnataka,2021-12-26,42,Standard,599,Auto Debit,6 Months,0
+801,Jagdish Banerjee,Female,43,0,0,1,Patna,Bihar,2023-04-03,18,Standard,599,Net Banking,Month-to-Month,0
+802,Priya Ghosh,Female,23,0,1,1,Ahmedabad,Gujarat,2023-07-11,18,Standard,599,Credit Card,2 Year,0
+803,Rajiv Kaur,Male,59,0,1,1,Vadodara,Gujarat,2018-07-04,72,Enterprise,1999,UPI,Annual,0
+804,Lalitha Lal,Male,43,0,0,1,Chennai,Tamil Nadu,2022-06-22,32,Premium,999,Net Banking,Month-to-Month,1
+805,Manju Bhatt,Male,27,0,0,0,Ahmedabad,Gujarat,2023-02-09,19,Standard,599,UPI,2 Year,0
+806,Rohit Shukla,Male,62,1,1,1,Hyderabad,Telangana,2024-11-06,7,Premium,999,Net Banking,6 Months,0
+807,Sunita Pandey,Male,64,1,1,1,Bangalore,Karnataka,2022-07-13,34,Enterprise,1999,UPI,2 Year,0
+808,Jagdish Shukla,Female,42,0,0,0,Kochi,Kerala,2022-06-16,33,Basic,299,Debit Card,2 Year,0
+809,Sunita Banerjee,Male,33,0,0,1,Vadodara,Gujarat,2024-09-07,11,Standard,599,Net Banking,Annual,0
+810,Sunita Kumar,Female,65,1,1,1,Mumbai,Maharashtra,2022-10-21,28,Standard,599,Debit Card,Month-to-Month,1
+811,Rekha Kothari,Female,57,0,1,1,Ahmedabad,Gujarat,2023-08-25,17,Standard,599,UPI,6 Months,0
+812,Priya Chandra,Male,39,0,1,1,Patna,Bihar,2018-07-19,72,Standard,599,UPI,Annual,0
+813,Manju Iyer,Male,26,0,1,0,Coimbatore,Tamil Nadu,2024-11-11,9,Basic,299,Auto Debit,Annual,0
+814,Anjali Malhotra,Female,60,1,1,0,Bhopal,Madhya Pradesh,2020-08-11,54,Basic,299,Net Banking,6 Months,0
+815,Wasim Nanda,Male,65,1,1,0,Chennai,Tamil Nadu,2021-06-08,43,Basic,299,Debit Card,6 Months,0
+816,Rahul Tripathi,Female,63,1,0,0,Indore,Madhya Pradesh,2020-02-25,53,Enterprise,1999,UPI,2 Year,0
+817,Kavita Banerjee,Male,29,0,1,0,Bangalore,Karnataka,2020-10-13,49,Basic,299,UPI,6 Months,1
+818,Vikram Ghosh,Female,56,0,1,0,Pune,Maharashtra,2021-06-10,41,Enterprise,1999,Net Banking,2 Year,0
+819,Jagdish Kothari,Male,44,0,1,0,Surat,Gujarat,2024-04-23,11,Enterprise,1999,Net Banking,Annual,0
+820,Kavita Banerjee,Male,61,1,0,0,Jaipur,Rajasthan,2021-01-04,47,Premium,999,Credit Card,2 Year,0
+821,Kavita Ansari,Male,32,0,0,1,Bhopal,Madhya Pradesh,2022-09-04,26,Enterprise,1999,Auto Debit,6 Months,0
+822,Wasim Bajaj,Female,33,0,0,0,Patna,Bihar,2020-05-16,53,Enterprise,1999,Credit Card,Annual,0
+823,Geeta Ghosh,Male,48,0,1,0,Jaipur,Rajasthan,2019-03-08,62,Enterprise,1999,UPI,6 Months,0
+824,Vandana Kumar,Female,32,0,1,0,Coimbatore,Tamil Nadu,2021-02-05,36,Premium,999,Debit Card,Annual,0
+825,Wasim Ghosh,Female,32,0,1,0,Patna,Bihar,2019-11-19,66,Standard,599,Net Banking,2 Year,0
+826,Priya Bhatt,Female,37,0,0,0,Vishakhapatnam,Andhra Pradesh,2024-08-11,11,Premium,999,Net Banking,2 Year,1
+827,Amit Verma,Male,24,0,1,0,Vadodara,Gujarat,2021-08-28,41,Enterprise,1999,Auto Debit,6 Months,0
+828,Karan Sharma,Male,65,1,0,1,Nagpur,Maharashtra,2020-03-11,57,Enterprise,1999,Debit Card,Annual,0
+829,Geeta Bose,Female,45,0,1,1,Indore,Madhya Pradesh,2023-01-02,12,Standard,599,UPI,Month-to-Month,1
+830,Pallavi Patel,Female,64,1,1,0,Chandigarh,Punjab,2022-05-21,29,Standard,599,UPI,Month-to-Month,0
+831,Mohan Bhosle,Male,24,0,1,0,Vadodara,Gujarat,2022-09-04,29,Basic,299,Debit Card,Annual,0
+832,Rohit Shukla,Male,58,0,0,0,Delhi,Delhi,2019-06-25,65,Enterprise,1999,Credit Card,2 Year,0
+833,Akash Malhotra,Male,45,0,0,1,Kochi,Kerala,2023-10-13,18,Basic,299,Auto Debit,6 Months,0
+834,Rahul Joshi,Female,40,0,1,0,Surat,Gujarat,2024-03-28,10,Basic,299,Auto Debit,Annual,0
+835,Sanjay Banerjee,Female,40,0,1,0,Kochi,Kerala,2019-04-13,64,Standard,599,Net Banking,2 Year,0
+836,Kavita Bhosle,Female,28,0,0,0,Mumbai,Maharashtra,2022-04-03,32,Enterprise,1999,Debit Card,Month-to-Month,1
+837,Rohit Kumar,Female,48,0,0,0,Nagpur,Maharashtra,2019-11-12,64,Basic,299,Net Banking,6 Months,1
+838,Anjali Tripathi,Female,48,0,1,1,Delhi,Delhi,2024-10-17,1,Standard,599,UPI,2 Year,0
+839,Lalitha Banerjee,Female,51,0,1,0,Vishakhapatnam,Andhra Pradesh,2022-06-18,31,Enterprise,1999,UPI,Annual,0
+840,Divya Pillai,Female,19,0,0,0,Indore,Madhya Pradesh,2023-03-06,12,Standard,599,Debit Card,Annual,0
+841,Mohan Pandey,Male,56,0,0,1,Surat,Gujarat,2020-05-04,48,Basic,299,Net Banking,2 Year,1
+842,Pooja Tiwari,Male,62,1,1,1,Lucknow,Uttar Pradesh,2019-02-22,65,Premium,999,UPI,Annual,0
+843,Karan Verma,Male,31,0,1,0,Patna,Bihar,2019-04-11,69,Standard,599,Credit Card,Month-to-Month,0
+844,Eshan Kumar,Female,34,0,1,0,Hyderabad,Telangana,2019-09-05,61,Premium,999,UPI,2 Year,1
+845,Aarav Shetty,Male,38,0,1,0,Delhi,Delhi,2021-11-22,37,Basic,299,Credit Card,6 Months,0
+846,Deepali Lal,Male,33,0,1,1,Kochi,Kerala,2020-06-27,56,Enterprise,1999,Credit Card,Month-to-Month,1
+847,Chirag Mishra,Female,22,0,1,0,Lucknow,Uttar Pradesh,2020-03-24,55,Basic,299,Credit Card,Annual,0
+848,Lokesh Shetty,Female,45,0,0,0,Hyderabad,Telangana,2023-03-16,23,Enterprise,1999,Credit Card,Annual,0
+849,Eshan Bhatt,Female,26,0,1,1,Coimbatore,Tamil Nadu,2021-10-26,43,Standard,599,Credit Card,Annual,0
+850,Manoj Tiwari,Female,53,0,1,0,Delhi,Delhi,2019-04-19,62,Standard,599,Auto Debit,Annual,0
+851,Irfan Lal,Male,53,0,1,1,Vadodara,Gujarat,2022-09-04,32,Basic,299,Debit Card,2 Year,1
+852,Kavita Bajaj,Female,55,0,1,0,Kochi,Kerala,2019-02-12,71,Standard,599,UPI,2 Year,0
+853,Manoj Bajaj,Male,57,0,1,0,Kochi,Kerala,2024-07-04,10,Enterprise,1999,Credit Card,6 Months,0
+854,Irfan Pandey,Female,46,0,0,0,Indore,Madhya Pradesh,2023-08-18,16,Standard,599,Credit Card,2 Year,0
+855,Hema Iyer,Female,48,0,0,0,Bhopal,Madhya Pradesh,2021-11-16,36,Basic,299,Auto Debit,6 Months,0
+856,Jagdish Bhosle,Female,40,0,1,0,Patna,Bihar,2023-07-14,22,Premium,999,Net Banking,Month-to-Month,1
+857,Sneha Tiwari,Female,37,0,1,1,Surat,Gujarat,2020-10-14,49,Basic,299,Net Banking,Annual,0
+858,Deepali Ghosh,Female,48,0,1,0,Ahmedabad,Gujarat,2020-09-02,51,Enterprise,1999,Net Banking,Annual,0
+859,Sarita Patil,Female,46,0,1,0,Bhopal,Madhya Pradesh,2021-08-02,41,Basic,299,Credit Card,Annual,0
+860,Jagdish Bhatt,Male,42,0,1,0,Kochi,Kerala,2020-12-11,53,Standard,599,Debit Card,Annual,1
+861,Pallavi Nanda,Male,34,0,1,1,Chandigarh,Punjab,2023-10-04,18,Premium,999,Net Banking,Month-to-Month,0
+862,Mohan Saxena,Female,33,0,1,0,Delhi,Delhi,2024-07-12,9,Basic,299,Auto Debit,6 Months,0
+863,Chirag Shukla,Male,21,0,1,0,Nagpur,Maharashtra,2022-08-19,32,Basic,299,Debit Card,2 Year,1
+864,Rahul Bajaj,Male,42,0,1,1,Vadodara,Gujarat,2024-10-13,11,Basic,299,UPI,Month-to-Month,0
+865,Swati Tripathi,Female,32,0,0,0,Patna,Bihar,2023-05-19,12,Standard,599,Net Banking,Month-to-Month,1
+866,Vikram Saxena,Female,18,0,1,1,Mumbai,Maharashtra,2020-07-02,54,Basic,299,Debit Card,2 Year,1
+867,Rajiv Reddy,Female,48,0,0,1,Nagpur,Maharashtra,2021-05-25,45,Basic,299,UPI,6 Months,1
+868,Bhavna Saxena,Male,65,1,1,0,Chennai,Tamil Nadu,2020-06-27,52,Enterprise,1999,Credit Card,Month-to-Month,1
+869,Lalitha Banerjee,Female,61,1,1,0,Hyderabad,Telangana,2024-01-01,7,Premium,999,UPI,Month-to-Month,0
+870,Aarav Kothari,Male,25,0,1,1,Chennai,Tamil Nadu,2021-04-14,47,Standard,599,Net Banking,6 Months,0
+871,Anil Bajaj,Male,22,0,0,1,Delhi,Delhi,2020-04-12,52,Standard,599,Credit Card,2 Year,0
+872,Uday Singh,Female,57,0,1,0,Indore,Madhya Pradesh,2022-02-27,35,Basic,299,Auto Debit,2 Year,0
+873,Swati Sharma,Female,36,0,0,1,Lucknow,Uttar Pradesh,2019-01-05,60,Basic,299,UPI,6 Months,0
+874,Rajiv Tiwari,Female,28,0,0,1,Chandigarh,Punjab,2019-04-06,65,Premium,999,Credit Card,2 Year,1
+875,Rekha Reddy,Female,44,0,1,0,Kochi,Kerala,2023-10-07,19,Enterprise,1999,Auto Debit,Annual,1
+876,Deepali Mehta,Male,46,0,0,0,Vadodara,Gujarat,2019-04-01,71,Enterprise,1999,Net Banking,6 Months,0
+877,Suresh Ghosh,Male,56,0,0,1,Chandigarh,Punjab,2020-08-07,54,Enterprise,1999,Debit Card,2 Year,0
+878,Tarun Ansari,Male,18,0,0,1,Indore,Madhya Pradesh,2024-05-24,2,Enterprise,1999,Net Banking,Month-to-Month,0
+879,Sarita Nanda,Female,54,0,0,1,Vadodara,Gujarat,2024-06-18,6,Premium,999,Auto Debit,6 Months,0
+880,Priya Chandra,Male,39,0,0,1,Bangalore,Karnataka,2021-12-03,41,Enterprise,1999,Auto Debit,Month-to-Month,1
+881,Geeta Kaur,Female,36,0,1,1,Patna,Bihar,2020-06-21,53,Enterprise,1999,Debit Card,Month-to-Month,1
+882,Usha Malhotra,Female,29,0,0,1,Bhopal,Madhya Pradesh,2020-06-16,53,Enterprise,1999,Credit Card,Month-to-Month,1
+883,Anil Kothari,Female,37,0,0,0,Nagpur,Maharashtra,2021-09-28,44,Premium,999,Debit Card,Month-to-Month,1
+884,Anil Patel,Male,44,0,1,1,Mumbai,Maharashtra,2022-05-27,35,Standard,599,Debit Card,2 Year,0
+885,Jagdish Kumar,Female,38,0,0,1,Surat,Gujarat,2023-12-08,21,Standard,599,Debit Card,Month-to-Month,1
+886,Kamla Malhotra,Male,60,1,1,1,Kolkata,West Bengal,2021-01-02,38,Basic,299,Auto Debit,Month-to-Month,0
+887,Sarita Saxena,Female,34,0,0,0,Ahmedabad,Gujarat,2021-04-09,45,Enterprise,1999,UPI,Month-to-Month,1
+888,Divya Iyer,Male,34,0,0,1,Jaipur,Rajasthan,2019-06-28,64,Standard,599,Net Banking,2 Year,1
+889,Usha Kulkarni,Male,54,0,1,0,Indore,Madhya Pradesh,2023-09-12,14,Premium,999,UPI,Annual,0
+890,Eshan Desai,Female,49,0,0,1,Lucknow,Uttar Pradesh,2021-06-21,43,Enterprise,1999,Credit Card,2 Year,1
+891,Naresh Ghosh,Female,30,0,1,0,Nagpur,Maharashtra,2023-03-28,12,Basic,299,UPI,6 Months,0
+892,Suresh Joshi,Female,27,0,0,0,Vadodara,Gujarat,2021-08-05,45,Basic,299,Credit Card,Month-to-Month,0
+893,Swati Banerjee,Male,41,0,1,1,Indore,Madhya Pradesh,2020-01-11,59,Standard,599,Debit Card,2 Year,1
+894,Pooja Patil,Male,48,0,0,1,Delhi,Delhi,2023-04-14,15,Basic,299,Net Banking,2 Year,0
+895,Naresh Pandey,Male,50,0,0,1,Mumbai,Maharashtra,2019-08-12,63,Premium,999,Net Banking,2 Year,0
+896,Akash Joshi,Male,46,0,1,0,Ahmedabad,Gujarat,2024-11-04,11,Enterprise,1999,UPI,Month-to-Month,1
+897,Vandana Nair,Male,57,0,0,1,Bangalore,Karnataka,2023-11-14,21,Enterprise,1999,Auto Debit,Month-to-Month,0
+898,Sneha Kulkarni,Male,41,0,1,1,Bangalore,Karnataka,2024-03-22,9,Enterprise,1999,Credit Card,2 Year,0
+899,Rahul Kulkarni,Male,34,0,0,0,Jaipur,Rajasthan,2019-06-21,69,Standard,599,Credit Card,6 Months,0
+900,Rahul Reddy,Male,65,1,1,1,Hyderabad,Telangana,2022-09-01,27,Premium,999,Net Banking,2 Year,0
+901,Rajiv Singh,Male,21,0,0,1,Chandigarh,Punjab,2020-04-23,48,Premium,999,Auto Debit,6 Months,0
+902,Ramesh Kothari,Male,52,0,1,0,Coimbatore,Tamil Nadu,2019-09-19,61,Basic,299,Auto Debit,Month-to-Month,0
+903,Rohit Shetty,Male,55,0,0,1,Coimbatore,Tamil Nadu,2022-09-24,26,Premium,999,UPI,Month-to-Month,1
+904,Tarun Kothari,Female,61,1,0,0,Mumbai,Maharashtra,2019-02-10,71,Enterprise,1999,Credit Card,Month-to-Month,0
+905,Sarita Ghosh,Female,47,0,0,0,Jaipur,Rajasthan,2023-06-20,22,Basic,299,Debit Card,Month-to-Month,0
+906,Anil Verma,Male,28,0,0,1,Patna,Bihar,2020-02-02,51,Basic,299,Auto Debit,Month-to-Month,1
+907,Nisha Bajaj,Female,20,0,1,0,Pune,Maharashtra,2021-04-08,37,Premium,999,Credit Card,Month-to-Month,0
+908,Manoj Aggarwal,Male,48,0,1,0,Surat,Gujarat,2021-01-26,36,Standard,599,Debit Card,Month-to-Month,0
+909,Anil Mehta,Female,51,0,0,1,Vishakhapatnam,Andhra Pradesh,2019-01-15,71,Basic,299,Net Banking,Month-to-Month,0
+910,Nisha Sharma,Male,53,0,1,1,Jaipur,Rajasthan,2019-05-16,63,Basic,299,Credit Card,6 Months,0
+911,Rahul Verma,Male,62,1,0,0,Patna,Bihar,2023-10-17,18,Premium,999,Debit Card,2 Year,0
+912,Vandana Patil,Male,22,0,0,1,Lucknow,Uttar Pradesh,2019-08-20,63,Premium,999,UPI,Month-to-Month,1
+913,Shobha Shukla,Male,42,0,1,0,Surat,Gujarat,2023-11-28,22,Premium,999,Credit Card,Annual,0
+914,Lokesh Joshi,Male,51,0,0,1,Coimbatore,Tamil Nadu,2024-01-14,5,Premium,999,Debit Card,6 Months,0
+915,Irfan Jain,Male,45,0,1,1,Mumbai,Maharashtra,2023-09-21,15,Premium,999,Debit Card,2 Year,0
+916,Vandana Malhotra,Male,42,0,1,0,Patna,Bihar,2019-08-26,71,Basic,299,Net Banking,Month-to-Month,1
+917,Naresh Bhosle,Male,55,0,1,0,Nagpur,Maharashtra,2023-09-28,23,Enterprise,1999,Net Banking,6 Months,0
+918,Hema Menon,Male,52,0,0,1,Delhi,Delhi,2020-12-03,59,Standard,599,Net Banking,6 Months,0
+919,Pallavi Kumar,Female,21,0,0,1,Bhopal,Madhya Pradesh,2022-07-01,31,Standard,599,Auto Debit,Annual,0
+920,Karan Nair,Male,45,0,1,0,Nagpur,Maharashtra,2023-11-19,21,Standard,599,Credit Card,2 Year,0
+921,Arjun Kaur,Female,44,0,0,0,Patna,Bihar,2024-09-19,4,Enterprise,1999,Debit Card,Annual,0
+922,Ramesh Chandra,Male,52,0,0,1,Lucknow,Uttar Pradesh,2023-05-09,22,Standard,599,Auto Debit,2 Year,0
+923,Suresh Iyer,Male,18,0,0,1,Hyderabad,Telangana,2019-10-26,68,Enterprise,1999,Credit Card,2 Year,0
+924,Geeta Iyer,Male,31,0,1,0,Kochi,Kerala,2019-12-14,67,Premium,999,Credit Card,Month-to-Month,0
+925,Priya Menon,Male,30,0,1,0,Vadodara,Gujarat,2022-09-18,35,Standard,599,Net Banking,Month-to-Month,1
+926,Ramesh Lal,Female,56,0,1,1,Vishakhapatnam,Andhra Pradesh,2024-09-16,4,Basic,299,Net Banking,6 Months,1
+927,Wasim Joshi,Female,19,0,0,1,Chennai,Tamil Nadu,2021-04-18,40,Premium,999,UPI,Month-to-Month,0
+928,Jagdish Chandra,Female,21,0,1,0,Vishakhapatnam,Andhra Pradesh,2021-01-15,37,Premium,999,UPI,2 Year,1
+929,Hema Joshi,Female,53,0,0,1,Mumbai,Maharashtra,2020-01-04,48,Enterprise,1999,Net Banking,2 Year,0
+930,Manoj Tripathi,Male,35,0,1,0,Lucknow,Uttar Pradesh,2022-02-21,32,Premium,999,Auto Debit,Annual,0
+931,Ramesh Ansari,Male,33,0,1,0,Kolkata,West Bengal,2022-02-18,29,Standard,599,UPI,2 Year,0
+932,Arjun Gupta,Female,52,0,1,1,Ahmedabad,Gujarat,2021-11-02,36,Enterprise,1999,Net Banking,6 Months,1
+933,Manju Patel,Male,61,1,0,1,Patna,Bihar,2022-11-09,35,Basic,299,Auto Debit,Annual,1
+934,Manju Desai,Female,54,0,0,0,Hyderabad,Telangana,2021-11-07,46,Basic,299,Net Banking,2 Year,0
+935,Tarun Malhotra,Female,40,0,0,1,Chandigarh,Punjab,2020-03-24,57,Enterprise,1999,Auto Debit,6 Months,0
+936,Pallavi Bhatt,Male,20,0,1,1,Chennai,Tamil Nadu,2022-10-01,33,Enterprise,1999,Auto Debit,Month-to-Month,0
+937,Usha Nair,Male,44,0,0,1,Indore,Madhya Pradesh,2020-06-06,54,Premium,999,Net Banking,Month-to-Month,0
+938,Lalitha Bajaj,Male,31,0,1,1,Chennai,Tamil Nadu,2023-01-13,17,Premium,999,Net Banking,Annual,1
+939,Wasim Kothari,Male,65,1,1,0,Kolkata,West Bengal,2019-01-18,62,Premium,999,Auto Debit,2 Year,1
+940,Anjali Menon,Female,61,1,1,0,Ahmedabad,Gujarat,2022-12-03,32,Basic,299,Auto Debit,Month-to-Month,1
+941,Deepali Kaur,Female,22,0,1,1,Hyderabad,Telangana,2024-07-24,2,Enterprise,1999,Credit Card,2 Year,0
+942,Deepali Kumar,Female,59,0,0,0,Surat,Gujarat,2023-08-16,13,Enterprise,1999,Debit Card,6 Months,0
+943,Kavita Ansari,Male,44,0,1,1,Kolkata,West Bengal,2022-05-16,32,Premium,999,Net Banking,Month-to-Month,1
+944,Anil Saxena,Male,27,0,0,0,Chandigarh,Punjab,2020-03-11,49,Standard,599,Net Banking,2 Year,0
+945,Shobha Mehta,Female,41,0,1,0,Ahmedabad,Gujarat,2023-01-21,19,Premium,999,UPI,Annual,1
+946,Karan Mehta,Male,59,0,1,0,Coimbatore,Tamil Nadu,2023-11-06,14,Basic,299,Credit Card,Annual,0
+947,Vandana Patel,Male,34,0,0,0,Indore,Madhya Pradesh,2023-08-14,13,Enterprise,1999,UPI,Annual,0
+948,Sneha Kulkarni,Male,47,0,1,0,Mumbai,Maharashtra,2024-04-28,10,Basic,299,Auto Debit,Month-to-Month,0
+949,Manju Rao,Female,55,0,1,1,Lucknow,Uttar Pradesh,2023-10-03,22,Enterprise,1999,Debit Card,2 Year,1
+950,Chirag Tiwari,Male,29,0,1,0,Delhi,Delhi,2019-09-20,60,Basic,299,UPI,Annual,0
+951,Pallavi Chandra,Female,60,1,0,1,Kolkata,West Bengal,2021-12-25,42,Enterprise,1999,UPI,6 Months,0
+952,Bhavna Bose,Female,62,1,1,1,Kochi,Kerala,2019-07-08,63,Standard,599,UPI,2 Year,0
+953,Tarun Bose,Female,64,1,0,1,Mumbai,Maharashtra,2020-09-16,55,Enterprise,1999,UPI,2 Year,1
+954,Deepali Mehta,Female,51,0,1,1,Bangalore,Karnataka,2023-06-19,14,Enterprise,1999,Credit Card,6 Months,0
+955,Vandana Jain,Male,34,0,0,1,Kochi,Kerala,2022-07-21,27,Premium,999,Net Banking,2 Year,0
+956,Rekha Mehta,Male,62,1,0,0,Chandigarh,Punjab,2022-12-09,31,Premium,999,Auto Debit,Annual,0
+957,Rajiv Sharma,Female,42,0,0,1,Kochi,Kerala,2022-01-06,30,Premium,999,UPI,6 Months,0
+958,Vikram Menon,Male,58,0,1,0,Delhi,Delhi,2023-05-02,19,Standard,599,UPI,Annual,0
+959,Rekha Ansari,Female,37,0,0,1,Patna,Bihar,2019-08-23,68,Enterprise,1999,Auto Debit,Month-to-Month,0
+960,Usha Ansari,Female,24,0,0,0,Kochi,Kerala,2022-12-05,32,Enterprise,1999,Debit Card,Annual,0
+961,Sanjay Verma,Female,51,0,1,0,Patna,Bihar,2023-10-04,22,Standard,599,UPI,6 Months,0
+962,Kavita Sharma,Male,30,0,1,0,Vadodara,Gujarat,2024-07-02,1,Enterprise,1999,Credit Card,Month-to-Month,1
+963,Sarita Pandey,Male,51,0,0,0,Kolkata,West Bengal,2024-06-20,11,Standard,599,Auto Debit,Annual,0
+964,Deepali Nanda,Female,25,0,0,1,Jaipur,Rajasthan,2021-10-03,46,Standard,599,UPI,6 Months,0
+965,Kavita Shukla,Male,65,1,1,0,Ahmedabad,Gujarat,2021-08-28,47,Enterprise,1999,UPI,Month-to-Month,0
+966,Lalitha Pillai,Female,20,0,0,1,Kochi,Kerala,2022-04-23,32,Standard,599,Net Banking,Annual,0
+967,Kamla Mishra,Female,41,0,1,1,Pune,Maharashtra,2023-01-14,21,Enterprise,1999,UPI,2 Year,0
+968,Wasim Singh,Male,35,0,1,0,Mumbai,Maharashtra,2022-12-03,33,Basic,299,Credit Card,Month-to-Month,0
+969,Amit Bhatt,Male,19,0,1,1,Indore,Madhya Pradesh,2021-11-05,45,Basic,299,UPI,6 Months,1
+970,Sanjay Bajaj,Female,29,0,1,0,Bangalore,Karnataka,2023-06-27,19,Basic,299,Net Banking,6 Months,0
+971,Wasim Verma,Male,51,0,1,1,Pune,Maharashtra,2019-06-09,67,Enterprise,1999,UPI,Month-to-Month,0
+972,Naresh Verma,Male,21,0,0,0,Jaipur,Rajasthan,2019-06-15,65,Standard,599,UPI,Month-to-Month,0
+973,Kavita Sharma,Female,57,0,1,0,Ahmedabad,Gujarat,2024-01-25,4,Standard,599,Net Banking,2 Year,0
+974,Lalitha Gupta,Male,18,0,0,0,Surat,Gujarat,2022-12-10,24,Basic,299,Net Banking,2 Year,0
+975,Ramesh Patil,Male,29,0,1,0,Chennai,Tamil Nadu,2021-10-02,42,Basic,299,Auto Debit,6 Months,1
+976,Rahul Mehta,Female,18,0,1,0,Indore,Madhya Pradesh,2024-07-03,4,Enterprise,1999,UPI,2 Year,0
+977,Rajiv Singh,Female,51,0,0,0,Pune,Maharashtra,2021-07-18,39,Enterprise,1999,UPI,Annual,0
+978,Vikram Kulkarni,Female,43,0,0,1,Lucknow,Uttar Pradesh,2024-07-24,11,Premium,999,Credit Card,6 Months,1
+979,Sarita Joshi,Male,36,0,1,1,Jaipur,Rajasthan,2019-03-22,68,Enterprise,1999,Credit Card,6 Months,0
+980,Sarita Reddy,Female,59,0,0,0,Vishakhapatnam,Andhra Pradesh,2022-09-17,33,Premium,999,UPI,Month-to-Month,1
+981,Anjali Saxena,Female,35,0,0,0,Kochi,Kerala,2024-07-14,11,Premium,999,Credit Card,2 Year,0
+982,Arjun Kaur,Female,33,0,1,1,Chandigarh,Punjab,2018-01-05,72,Enterprise,1999,Net Banking,2 Year,0
+983,Manoj Pillai,Female,58,0,1,1,Coimbatore,Tamil Nadu,2019-04-13,66,Standard,599,Auto Debit,2 Year,0
+984,Tarun Bhatt,Male,51,0,1,1,Chennai,Tamil Nadu,2020-01-05,58,Basic,299,UPI,6 Months,0
+985,Eshan Mishra,Female,28,0,0,1,Kochi,Kerala,2021-09-15,40,Enterprise,1999,Net Banking,Month-to-Month,1
+986,Sarita Ansari,Female,48,0,0,1,Bhopal,Madhya Pradesh,2020-10-21,51,Standard,599,Credit Card,6 Months,0
+987,Lokesh Kumar,Female,46,0,0,1,Ahmedabad,Gujarat,2022-02-03,31,Premium,999,UPI,Annual,0
+988,Anil Iyer,Male,32,0,0,0,Mumbai,Maharashtra,2021-03-11,47,Standard,599,Debit Card,6 Months,0
+989,Chirag Pillai,Female,64,1,0,0,Lucknow,Uttar Pradesh,2021-08-25,40,Basic,299,Credit Card,2 Year,1
+990,Meena Singh,Male,38,0,0,0,Mumbai,Maharashtra,2022-05-07,35,Enterprise,1999,Auto Debit,Month-to-Month,0
+991,Amit Rao,Female,36,0,0,0,Indore,Madhya Pradesh,2024-10-10,9,Enterprise,1999,Net Banking,Annual,0
+992,Pooja Bose,Female,39,0,0,1,Kolkata,West Bengal,2022-12-06,26,Basic,299,UPI,6 Months,0
+993,Aarav Rao,Female,59,0,1,0,Chandigarh,Punjab,2024-03-03,10,Enterprise,1999,Net Banking,2 Year,0
+994,Divya Reddy,Male,41,0,1,0,Delhi,Delhi,2019-08-09,71,Enterprise,1999,Auto Debit,Annual,0
+995,Vikram Iyer,Female,33,0,1,0,Nagpur,Maharashtra,2020-05-04,50,Standard,599,UPI,Annual,0
+996,Mohan Ansari,Male,51,0,0,0,Lucknow,Uttar Pradesh,2023-04-23,12,Basic,299,Credit Card,Month-to-Month,1
+997,Wasim Nair,Female,65,1,1,0,Surat,Gujarat,2020-10-12,59,Basic,299,UPI,Annual,0
+998,Sarita Joshi,Male,24,0,1,0,Ahmedabad,Gujarat,2021-04-02,38,Premium,999,Net Banking,6 Months,0
+999,Sneha Pillai,Female,47,0,0,1,Coimbatore,Tamil Nadu,2020-11-19,52,Enterprise,1999,Auto Debit,2 Year,0
+1000,Amit Reddy,Male,18,0,0,0,Kochi,Kerala,2021-04-25,37,Standard,599,Debit Card,Annual,0
