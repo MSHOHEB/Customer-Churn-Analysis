@@ -1,0 +1,254 @@
+churn_id,customer_id,churn_date,churn_reason,satisfaction_score
+1,1,2024-05-21,Poor Network Quality,3
+2,7,2024-02-07,Better Features Elsewhere,8
+3,12,2024-01-28,Financial Issues,7
+4,15,2024-02-21,Poor Network Quality,4
+5,16,2024-05-02,Poor Customer Service,3
+6,18,2024-05-13,Dissatisfied with Speed,8
+7,24,2024-03-14,Poor Network Quality,6
+8,25,2024-01-06,Poor Customer Service,5
+9,30,2024-06-17,Dissatisfied with Speed,1
+10,32,2024-03-14,Relocated,1
+11,35,2024-01-15,Relocated,3
+12,42,2024-02-24,Financial Issues,8
+13,43,2024-04-17,Dissatisfied with Speed,6
+14,47,2024-05-24,Family Plan Elsewhere,7
+15,49,2024-02-19,Poor Customer Service,4
+16,50,2024-01-05,Poor Customer Service,2
+17,57,2024-06-25,Financial Issues,1
+18,59,2024-04-04,Better Features Elsewhere,4
+19,60,2024-01-14,Switched to Competitor,2
+20,69,2024-01-10,Better Features Elsewhere,7
+21,77,2024-01-18,Relocated,8
+22,83,2024-05-13,Dissatisfied with Speed,2
+23,87,2024-04-08,Financial Issues,10
+24,92,2024-06-01,Switched to Competitor,3
+25,95,2024-06-08,Family Plan Elsewhere,2
+26,98,2024-03-14,Poor Customer Service,5
+27,99,2024-05-15,Better Features Elsewhere,5
+28,103,2024-05-04,Switched to Competitor,2
+29,106,2024-06-26,Financial Issues,2
+30,118,2024-06-12,No Longer Needed,2
+31,120,2024-06-04,Better Price Elsewhere,10
+32,121,2024-06-02,Dissatisfied with Speed,2
+33,127,2024-02-13,No Longer Needed,4
+34,129,2024-03-08,Relocated,9
+35,132,2024-01-18,Better Price Elsewhere,8
+36,138,2024-03-07,Switched to Competitor,10
+37,148,2024-06-28,Poor Network Quality,3
+38,153,2024-03-14,Poor Network Quality,2
+39,157,2024-01-24,Better Features Elsewhere,3
+40,162,2024-06-01,Switched to Competitor,5
+41,169,2024-03-07,Switched to Competitor,6
+42,174,2024-01-14,Poor Network Quality,1
+43,176,2024-02-15,Financial Issues,1
+44,177,2024-04-15,Poor Customer Service,5
+45,178,2024-03-20,Relocated,8
+46,190,2024-02-22,Better Price Elsewhere,4
+47,194,2024-02-19,Poor Customer Service,7
+48,199,2024-02-09,No Longer Needed,2
+49,200,2024-06-03,Poor Network Quality,4
+50,204,2024-04-27,Better Price Elsewhere,3
+51,210,2024-06-11,Better Price Elsewhere,4
+52,215,2024-04-11,Better Features Elsewhere,1
+53,221,2024-04-27,Relocated,9
+54,224,2024-04-09,Family Plan Elsewhere,2
+55,230,2024-04-21,Better Features Elsewhere,8
+56,232,2024-04-04,Better Price Elsewhere,9
+57,233,2024-05-16,Financial Issues,5
+58,238,2024-05-25,Financial Issues,7
+59,244,2024-01-14,Dissatisfied with Speed,7
+60,256,2024-03-21,Better Features Elsewhere,9
+61,264,2024-05-09,Financial Issues,2
+62,267,2024-03-03,Poor Customer Service,1
+63,273,2024-03-05,Switched to Competitor,4
+64,274,2024-05-01,Better Price Elsewhere,1
+65,287,2024-04-14,Switched to Competitor,1
+66,289,2024-01-08,Better Price Elsewhere,4
+67,292,2024-04-28,Switched to Competitor,10
+68,293,2024-06-21,Financial Issues,6
+69,294,2024-04-04,Financial Issues,6
+70,302,2024-05-24,Financial Issues,5
+71,309,2024-01-03,Switched to Competitor,3
+72,313,2024-04-05,Financial Issues,6
+73,314,2024-03-11,Better Price Elsewhere,1
+74,321,2024-04-12,Family Plan Elsewhere,5
+75,322,2024-05-01,Better Features Elsewhere,3
+76,324,2024-02-27,Relocated,4
+77,350,2024-03-21,Relocated,6
+78,354,2024-06-13,Dissatisfied with Speed,9
+79,358,2024-01-02,Better Features Elsewhere,1
+80,363,2024-02-07,Poor Network Quality,8
+81,365,2024-03-04,Better Price Elsewhere,2
+82,368,2024-05-06,Poor Customer Service,5
+83,370,2024-04-20,Poor Network Quality,10
+84,371,2024-04-01,Dissatisfied with Speed,7
+85,372,2024-04-26,Poor Customer Service,9
+86,376,2024-04-02,Switched to Competitor,10
+87,389,2024-02-12,Financial Issues,4
+88,390,2024-03-02,Poor Network Quality,5
+89,394,2024-03-25,Dissatisfied with Speed,7
+90,400,2024-01-26,Poor Customer Service,5
+91,405,2024-06-06,Better Features Elsewhere,3
+92,407,2024-04-06,Poor Network Quality,7
+93,410,2024-04-24,Poor Customer Service,5
+94,411,2024-01-02,Dissatisfied with Speed,4
+95,412,2024-02-27,Switched to Competitor,8
+96,419,2024-04-04,Poor Network Quality,9
+97,424,2024-01-19,Poor Network Quality,4
+98,430,2024-04-01,Better Price Elsewhere,3
+99,431,2024-06-14,Poor Customer Service,2
+100,432,2024-01-21,No Longer Needed,8
+101,433,2024-03-02,No Longer Needed,1
+102,435,2024-01-02,Switched to Competitor,1
+103,437,2024-06-11,Relocated,6
+104,438,2024-03-13,Poor Customer Service,1
+105,439,2024-01-02,Financial Issues,7
+106,440,2024-01-28,Switched to Competitor,7
+107,447,2024-04-20,Dissatisfied with Speed,1
+108,457,2024-05-08,Poor Network Quality,4
+109,461,2024-06-03,Poor Customer Service,9
+110,464,2024-05-06,No Longer Needed,2
+111,469,2024-06-18,Family Plan Elsewhere,4
+112,474,2024-03-06,No Longer Needed,10
+113,475,2024-02-22,Poor Network Quality,3
+114,484,2024-02-19,Dissatisfied with Speed,10
+115,487,2024-03-03,Better Price Elsewhere,7
+116,490,2024-03-06,Family Plan Elsewhere,8
+117,494,2024-03-02,Poor Customer Service,5
+118,495,2024-04-19,No Longer Needed,5
+119,501,2024-01-14,Better Features Elsewhere,9
+120,502,2024-01-12,Relocated,7
+121,503,2024-04-27,Family Plan Elsewhere,4
+122,517,2024-01-14,Relocated,2
+123,518,2024-01-13,Switched to Competitor,8
+124,520,2024-03-14,Relocated,6
+125,522,2024-06-12,No Longer Needed,1
+126,528,2024-03-05,Relocated,8
+127,529,2024-02-07,Dissatisfied with Speed,5
+128,533,2024-05-14,Better Price Elsewhere,8
+129,537,2024-05-16,No Longer Needed,4
+130,543,2024-03-26,No Longer Needed,2
+131,544,2024-06-26,No Longer Needed,9
+132,550,2024-04-26,Dissatisfied with Speed,6
+133,556,2024-04-07,Poor Customer Service,4
+134,569,2024-02-21,No Longer Needed,7
+135,570,2024-01-10,No Longer Needed,9
+136,572,2024-02-10,Financial Issues,8
+137,573,2024-06-16,No Longer Needed,9
+138,574,2024-03-03,Financial Issues,6
+139,582,2024-03-18,No Longer Needed,3
+140,584,2024-04-06,Relocated,9
+141,585,2024-04-28,Relocated,5
+142,587,2024-05-11,Poor Network Quality,6
+143,590,2024-04-26,Relocated,9
+144,597,2024-06-02,Better Price Elsewhere,10
+145,605,2024-06-18,Better Features Elsewhere,8
+146,613,2024-02-09,Poor Network Quality,10
+147,614,2024-03-05,Financial Issues,10
+148,617,2024-04-16,Dissatisfied with Speed,2
+149,618,2024-01-07,Better Features Elsewhere,9
+150,619,2024-04-05,Better Price Elsewhere,1
+151,621,2024-06-21,Financial Issues,2
+152,622,2024-02-11,No Longer Needed,4
+153,630,2024-05-16,No Longer Needed,3
+154,631,2024-06-24,Dissatisfied with Speed,1
+155,634,2024-01-02,Family Plan Elsewhere,8
+156,635,2024-03-05,Relocated,7
+157,636,2024-01-07,Dissatisfied with Speed,6
+158,642,2024-02-11,Better Features Elsewhere,7
+159,644,2024-04-09,Relocated,1
+160,648,2024-02-07,Financial Issues,2
+161,653,2024-04-12,Poor Customer Service,5
+162,658,2024-02-06,Financial Issues,6
+163,659,2024-01-28,Financial Issues,8
+164,660,2024-06-18,Financial Issues,4
+165,674,2024-02-07,Poor Customer Service,6
+166,676,2024-06-05,Better Features Elsewhere,6
+167,677,2024-01-22,Relocated,1
+168,683,2024-03-22,Financial Issues,10
+169,686,2024-02-26,Family Plan Elsewhere,1
+170,688,2024-01-15,Better Features Elsewhere,9
+171,691,2024-03-28,No Longer Needed,3
+172,695,2024-04-08,Family Plan Elsewhere,8
+173,701,2024-03-24,Better Price Elsewhere,7
+174,702,2024-06-17,No Longer Needed,6
+175,709,2024-01-20,Relocated,5
+176,710,2024-03-23,Poor Network Quality,8
+177,711,2024-05-25,Better Features Elsewhere,6
+178,715,2024-01-15,Poor Network Quality,6
+179,717,2024-06-06,Poor Customer Service,3
+180,721,2024-01-07,Financial Issues,9
+181,724,2024-01-17,Better Price Elsewhere,8
+182,725,2024-05-03,Financial Issues,8
+183,732,2024-04-07,Family Plan Elsewhere,5
+184,733,2024-05-10,Better Price Elsewhere,2
+185,734,2024-06-25,No Longer Needed,7
+186,736,2024-06-07,Financial Issues,3
+187,737,2024-06-11,Better Price Elsewhere,5
+188,741,2024-04-20,No Longer Needed,7
+189,745,2024-06-24,No Longer Needed,6
+190,747,2024-05-12,Poor Network Quality,2
+191,753,2024-06-04,Better Price Elsewhere,10
+192,755,2024-04-15,Relocated,4
+193,756,2024-06-01,Financial Issues,2
+194,761,2024-05-17,Family Plan Elsewhere,8
+195,762,2024-01-14,Financial Issues,2
+196,770,2024-04-19,Better Price Elsewhere,6
+197,783,2024-05-14,Better Features Elsewhere,1
+198,798,2024-03-12,Dissatisfied with Speed,10
+199,799,2024-06-22,Dissatisfied with Speed,4
+200,804,2024-02-23,Financial Issues,7
+201,810,2024-02-05,Poor Customer Service,6
+202,817,2024-05-14,Switched to Competitor,6
+203,826,2024-04-15,Family Plan Elsewhere,3
+204,829,2024-05-24,Financial Issues,2
+205,836,2024-01-17,Poor Network Quality,5
+206,837,2024-03-28,Better Price Elsewhere,7
+207,841,2024-02-24,Poor Customer Service,5
+208,844,2024-03-19,No Longer Needed,6
+209,846,2024-06-20,Switched to Competitor,10
+210,851,2024-02-24,Better Price Elsewhere,9
+211,856,2024-04-13,Family Plan Elsewhere,8
+212,860,2024-03-08,No Longer Needed,8
+213,863,2024-05-16,Relocated,8
+214,865,2024-05-28,Dissatisfied with Speed,3
+215,866,2024-05-27,Poor Customer Service,6
+216,867,2024-03-24,Poor Customer Service,3
+217,868,2024-05-24,Switched to Competitor,8
+218,874,2024-05-20,No Longer Needed,4
+219,875,2024-04-23,Poor Customer Service,4
+220,880,2024-03-01,No Longer Needed,2
+221,881,2024-02-12,Relocated,5
+222,882,2024-01-14,Family Plan Elsewhere,7
+223,883,2024-01-21,Poor Customer Service,3
+224,885,2024-05-16,Poor Customer Service,3
+225,887,2024-01-22,Relocated,9
+226,888,2024-05-19,Switched to Competitor,10
+227,890,2024-02-06,No Longer Needed,7
+228,893,2024-05-26,Better Price Elsewhere,7
+229,896,2024-02-16,Poor Customer Service,9
+230,903,2024-02-18,Financial Issues,9
+231,906,2024-01-15,No Longer Needed,8
+232,912,2024-04-13,No Longer Needed,5
+233,916,2024-06-04,Poor Network Quality,7
+234,925,2024-06-11,Poor Customer Service,6
+235,926,2024-03-25,Financial Issues,8
+236,928,2024-05-20,No Longer Needed,10
+237,932,2024-02-24,Poor Network Quality,5
+238,933,2024-01-19,Better Price Elsewhere,3
+239,938,2024-01-27,Family Plan Elsewhere,1
+240,939,2024-02-03,Dissatisfied with Speed,8
+241,940,2024-04-16,Relocated,4
+242,943,2024-01-18,Family Plan Elsewhere,5
+243,945,2024-04-04,Poor Customer Service,5
+244,949,2024-04-19,No Longer Needed,6
+245,953,2024-04-20,Better Price Elsewhere,6
+246,962,2024-02-06,Relocated,3
+247,969,2024-06-02,Poor Network Quality,8
+248,975,2024-02-28,Dissatisfied with Speed,4
+249,978,2024-05-25,No Longer Needed,1
+250,980,2024-04-03,Switched to Competitor,5
+251,985,2024-05-24,No Longer Needed,9
+252,989,2024-01-08,Dissatisfied with Speed,1
+253,996,2024-01-02,Poor Customer Service,6
